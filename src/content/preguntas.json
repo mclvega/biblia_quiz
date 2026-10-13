@@ -1,166 +1,3432 @@
 [
-  { "id": 1, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿Quién construyó el arca por mandato de Dios?", "opciones": ["Noé", "Moisés", "Abraham", "Jacob"], "correcta": 0, "ref": "Génesis 6:14" },
-  { "id": 2, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿Cuál es el primer libro de la Biblia?", "opciones": ["Génesis", "Éxodo", "Levítico", "Números"], "correcta": 0, "ref": "Génesis 1:1" },
-  { "id": 3, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿Quiénes fueron el primer hombre y la primera mujer?", "opciones": ["Adán y Eva", "Abraham y Sara", "Isaac y Rebeca", "Jacob y Lea"], "correcta": 0, "ref": "Génesis 3:20" },
-  { "id": 4, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿Qué mar abrió Dios para que pasara el pueblo de Israel?", "opciones": ["El mar Rojo", "El mar Muerto", "El mar de Galilea", "El mar Mediterráneo"], "correcta": 0, "ref": "Éxodo 14:21-22" },
-  { "id": 5, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿Qué ciudad cayó cuando el pueblo gritó y tocó las bocinas?", "opciones": ["Jericó", "Jerusalén", "Nínive", "Babel"], "correcta": 0, "ref": "Josué 6:20" },
-  { "id": 6, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿Quién recibió las tablas de la ley en el monte Sinaí?", "opciones": ["Moisés", "Aarón", "Josué", "Caleb"], "correcta": 0, "ref": "Éxodo 31:18" },
-  { "id": 7, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿Qué alimento envió Dios del cielo en el desierto?", "opciones": ["El maná", "Higos", "Uvas", "Miel"], "correcta": 0, "ref": "Éxodo 16:15" },
-  { "id": 8, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿Quién sacó al pueblo de Israel de Egipto?", "opciones": ["Moisés", "Josué", "Samuel", "Elías"], "correcta": 0, "ref": "Éxodo 3:10" },
-  { "id": 9, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿En cuántos días hizo Dios los cielos y la tierra?", "opciones": ["Seis", "Tres", "Diez", "Cuarenta"], "correcta": 0, "ref": "Éxodo 20:11" },
-  { "id": 10, "categoria": "Antiguo Testamento", "dificultad": "facil", "pregunta": "¿Qué puso Dios en las nubes como señal después del diluvio?", "opciones": ["Su arco (el arco iris)", "Una estrella", "Una columna de fuego", "Una paloma"], "correcta": 0, "ref": "Génesis 9:13" },
-
-  { "id": 11, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿Cuántos días y noches llovió durante el diluvio?", "opciones": ["Cuarenta", "Siete", "Tres", "Cien"], "correcta": 0, "ref": "Génesis 7:12" },
-  { "id": 12, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿Qué ave volvió al arca con una hoja de olivo en el pico?", "opciones": ["Una paloma", "Un águila", "Un gorrión", "Un cuervo"], "correcta": 0, "ref": "Génesis 8:11" },
-  { "id": 13, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿Cómo se llamó la torre donde Dios confundió las lenguas de los hombres?", "opciones": ["Babel", "Sion", "Jericó", "Nínive"], "correcta": 0, "ref": "Génesis 11:9" },
-  { "id": 14, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿En qué se convirtió la mujer de Lot al mirar atrás?", "opciones": ["En estatua de sal", "En una piedra", "En un árbol", "En ceniza"], "correcta": 0, "ref": "Génesis 19:26" },
-  { "id": 15, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿Qué animal engañó a Eva en el huerto del Edén?", "opciones": ["La serpiente", "El león", "El cuervo", "El lobo"], "correcta": 0, "ref": "Génesis 3:13" },
-  { "id": 16, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿Qué animal habló a Balaam en su camino?", "opciones": ["Una asna", "Una serpiente", "Un león", "Un buey"], "correcta": 0, "ref": "Números 22:28" },
-  { "id": 17, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿A quién le habló Dios desde una zarza que ardía sin consumirse?", "opciones": ["Moisés", "Abraham", "Elías", "Josué"], "correcta": 0, "ref": "Éxodo 3:2-4" },
-  { "id": 18, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿Qué día de la semana reposó Dios después de la creación?", "opciones": ["El séptimo", "El primero", "El tercero", "El sexto"], "correcta": 0, "ref": "Génesis 2:2" },
-  { "id": 19, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿Cuántas personas se salvaron dentro del arca de Noé?", "opciones": ["Ocho", "Doce", "Dos", "Cuatro"], "correcta": 0, "ref": "1 Pedro 3:20" },
-  { "id": 20, "categoria": "Antiguo Testamento", "dificultad": "media", "pregunta": "¿Qué construyó el rey Salomón en Jerusalén para Dios?", "opciones": ["El templo", "Un arca nueva", "Una muralla de oro", "Un altar de plata"], "correcta": 0, "ref": "1 Reyes 6:1" },
-
-  { "id": 21, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿Cuántos años vivió Matusalén según Génesis?", "opciones": ["969 años", "777 años", "500 años", "1000 años"], "correcta": 0, "ref": "Génesis 5:27" },
-  { "id": 22, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿Qué profeta enfrentó a 450 profetas de Baal en el monte Carmelo?", "opciones": ["Elías", "Eliseo", "Isaías", "Jeremías"], "correcta": 0, "ref": "1 Reyes 18:19-40" },
-  { "id": 23, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿Cómo se llamaba la ciudad de la que Dios hizo huir a Jonás como profeta en vez de ir allí al principio?", "opciones": ["Nínive", "Tarsis", "Babilonia", "Jope"], "correcta": 0, "ref": "Jonás 1:1-3" },
-  { "id": 24, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿Qué rey de Babilonia soñó con una estatua de oro, plata, bronce, hierro y barro?", "opciones": ["Nabucodonosor", "Belsasar", "Darío", "Ciro"], "correcta": 0, "ref": "Daniel 2:31-33" },
-  { "id": 25, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿Cuántos capítulos tiene el libro de Salmos?", "opciones": ["150", "100", "119", "176"], "correcta": 0, "ref": "Salmos 150" },
-  { "id": 26, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿Qué juez de Israel derrotó a los madianitas con solo 300 hombres?", "opciones": ["Gedeón", "Sansón", "Débora", "Jefté"], "correcta": 0, "ref": "Jueces 7:7" },
-  { "id": 27, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿Qué profeta vio un valle de huesos secos que volvían a la vida?", "opciones": ["Ezequiel", "Jeremías", "Daniel", "Oseas"], "correcta": 0, "ref": "Ezequiel 37:1-10" },
-  { "id": 28, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿Cuál es el libro más corto del Antiguo Testamento?", "opciones": ["Abdías", "Abdías o Nahúm (Abdías)", "Rut", "Ester"], "correcta": 0, "ref": "Abdías 1" },
-  { "id": 29, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿Qué rey de Israel pecó al tomar a Betsabé, esposa de Urías?", "opciones": ["David", "Salomón", "Saúl", "Acab"], "correcta": 0, "ref": "2 Samuel 11:2-4" },
-  { "id": 30, "categoria": "Antiguo Testamento", "dificultad": "dificil", "pregunta": "¿A qué altura, en codos, mandó Dios construir el arca de Noé?", "opciones": ["30 codos", "50 codos", "100 codos", "10 codos"], "correcta": 0, "ref": "Génesis 6:15" },
-
-  { "id": 31, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿En qué ciudad nació Jesús?", "opciones": ["Belén", "Nazaret", "Jericó", "Jerusalén"], "correcta": 0, "ref": "Mateo 2:1" },
-  { "id": 32, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿Cómo se llamaba la madre de Jesús?", "opciones": ["María", "Marta", "Ana", "Elisabet"], "correcta": 0, "ref": "Mateo 1:18" },
-  { "id": 33, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿Quién bautizó a Jesús en el río Jordán?", "opciones": ["Juan el Bautista", "Pedro", "Pablo", "Andrés"], "correcta": 0, "ref": "Mateo 3:13" },
-  { "id": 34, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿Cuántos discípulos escogió Jesús como apóstoles?", "opciones": ["Doce", "Siete", "Cuarenta", "Diez"], "correcta": 0, "ref": "Lucas 6:13" },
-  { "id": 35, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿Dónde acostaron al niño Jesús cuando nació?", "opciones": ["En un pesebre", "En el templo", "En un palacio", "En una posada"], "correcta": 0, "ref": "Lucas 2:7" },
-  { "id": 36, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿Quién negó a Jesús tres veces antes de que cantara el gallo?", "opciones": ["Pedro", "Juan", "Tomás", "Felipe"], "correcta": 0, "ref": "Mateo 26:75" },
-  { "id": 37, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿Qué pasó con Jesús al tercer día después de morir?", "opciones": ["Resucitó", "Se fue a Egipto", "Subió a un monte a orar", "Apareció en Roma"], "correcta": 0, "ref": "1 Corintios 15:4" },
-  { "id": 38, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿Qué oficio tenían Pedro y Andrés antes de seguir a Jesús?", "opciones": ["Pescadores", "Carpinteros", "Pastores", "Recaudadores"], "correcta": 0, "ref": "Mateo 4:18" },
-  { "id": 39, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿En qué río fue bautizado Jesús?", "opciones": ["El Jordán", "El Nilo", "El Éufrates", "El Tigris"], "correcta": 0, "ref": "Mateo 3:13" },
-  { "id": 40, "categoria": "Nuevo Testamento", "dificultad": "facil", "pregunta": "¿Cuál es el último libro de la Biblia?", "opciones": ["Apocalipsis", "Malaquías", "Judas", "Hebreos"], "correcta": 0, "ref": "Apocalipsis 22:21" },
-
-  { "id": 41, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿Qué hizo Jesús en las bodas de Caná?", "opciones": ["Convirtió el agua en vino", "Multiplicó los panes", "Calmó una tormenta", "Caminó sobre el mar"], "correcta": 0, "ref": "Juan 2:9-11" },
-  { "id": 42, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿Cuántos panes había cuando Jesús alimentó a los cinco mil?", "opciones": ["Cinco", "Doce", "Dos", "Siete"], "correcta": 0, "ref": "Mateo 14:17-21" },
-  { "id": 43, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿Quién entregó a Jesús por treinta piezas de plata?", "opciones": ["Judas Iscariote", "Andrés", "Felipe", "Tomás"], "correcta": 0, "ref": "Mateo 26:14-16" },
-  { "id": 44, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿En qué lugar oró Jesús la noche antes de ser arrestado?", "opciones": ["Getsemaní", "Edén", "Belén", "Capernaúm"], "correcta": 0, "ref": "Mateo 26:36" },
-  { "id": 45, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿Qué discípulo quiso ver las heridas de Jesús resucitado para creer?", "opciones": ["Tomás", "Felipe", "Mateo", "Santiago"], "correcta": 0, "ref": "Juan 20:24-28" },
-  { "id": 46, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿A quién resucitó Jesús después de cuatro días en el sepulcro?", "opciones": ["Lázaro", "Esteban", "Bartimeo", "Jairo"], "correcta": 0, "ref": "Juan 11:39-44" },
-  { "id": 47, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿Cómo se llamaba Pablo antes de conocer a Jesús?", "opciones": ["Saulo", "Simón", "Silas", "Bernabé"], "correcta": 0, "ref": "Hechos 13:9" },
-  { "id": 48, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿En qué camino se le apareció Jesús resucitado a Saulo?", "opciones": ["El camino a Damasco", "El camino a Emaús", "El camino a Jericó", "El camino a Antioquía"], "correcta": 0, "ref": "Hechos 9:3" },
-  { "id": 49, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿En qué día vino el Espíritu Santo sobre los discípulos reunidos?", "opciones": ["El día de Pentecostés", "El día de la Pascua", "El día de reposo", "El día de la ascensión"], "correcta": 0, "ref": "Hechos 2:1-4" },
-  { "id": 50, "categoria": "Nuevo Testamento", "dificultad": "media", "pregunta": "¿Sobre qué caminó Jesús para llegar a la barca de sus discípulos?", "opciones": ["Sobre el mar", "Sobre el fuego", "Sobre las nubes", "Sobre un puente"], "correcta": 0, "ref": "Mateo 14:25" },
-
-  { "id": 51, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿Cuántos años tenía Jesús cuando se quedó enseñando en el templo entre los doctores?", "opciones": ["Doce", "Diez", "Quince", "Ocho"], "correcta": 0, "ref": "Lucas 2:42" },
-  { "id": 52, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿Qué apóstol escribió el libro de Apocalipsis mientras estaba desterrado en la isla de Patmos?", "opciones": ["Juan", "Pedro", "Pablo", "Santiago"], "correcta": 0, "ref": "Apocalipsis 1:9" },
-  { "id": 53, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿Cuántos libros escribió el apóstol Pablo en el Nuevo Testamento, según la tradición más común?", "opciones": ["13", "27", "4", "9"], "correcta": 0, "ref": "Romanos 1:1" },
-  { "id": 54, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿Cómo se llamaba el gobernador romano que juzgó a Jesús?", "opciones": ["Poncio Pilato", "Herodes Antipas", "Félix", "Festo"], "correcta": 0, "ref": "Mateo 27:2" },
-  { "id": 55, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿Qué diácono fue apedreado y se convirtió en el primer mártir cristiano?", "opciones": ["Esteban", "Felipe", "Timoteo", "Bernabé"], "correcta": 0, "ref": "Hechos 7:59-60" },
-  { "id": 56, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿En qué isla naufragó Pablo camino a Roma?", "opciones": ["Malta", "Creta", "Chipre", "Rodas"], "correcta": 0, "ref": "Hechos 28:1" },
-  { "id": 57, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿Cuál es el primero de los cuatro evangelios en el Nuevo Testamento?", "opciones": ["Mateo", "Marcos", "Lucas", "Juan"], "correcta": 0, "ref": "Mateo 1:1" },
-  { "id": 58, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿Qué mujer samaritana habló con Jesús junto a un pozo?", "opciones": ["No se menciona su nombre", "Marta", "María Magdalena", "Rut"], "correcta": 0, "ref": "Juan 4:7-9" },
-  { "id": 59, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿Qué centurión romano reconoció su fe y Jesús sanó a su siervo a distancia?", "opciones": ["Un centurión en Capernaúm", "Cornelio", "Julio", "Claudio"], "correcta": 0, "ref": "Mateo 8:5-13" },
-  { "id": 60, "categoria": "Nuevo Testamento", "dificultad": "dificil", "pregunta": "¿A quién se le apareció Jesús primero después de resucitar, según el evangelio de Juan?", "opciones": ["A María Magdalena", "A Pedro", "A los once discípulos", "A Tomás"], "correcta": 0, "ref": "Juan 20:14-16" },
-
-  { "id": 61, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿Quién venció al gigante Goliat?", "opciones": ["David", "Saúl", "Sansón", "Jonatán"], "correcta": 0, "ref": "1 Samuel 17:50" },
-  { "id": 62, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿Quién fue tragado por un gran pez?", "opciones": ["Jonás", "Elías", "Daniel", "Noé"], "correcta": 0, "ref": "Jonás 1:17" },
-  { "id": 63, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿A quién echaron al foso de los leones por orar a Dios?", "opciones": ["Daniel", "José", "Pablo", "Esteban"], "correcta": 0, "ref": "Daniel 6:16" },
-  { "id": 64, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿Cómo se llamaba la esposa de Abraham?", "opciones": ["Sara", "Rut", "Ester", "Raquel"], "correcta": 0, "ref": "Génesis 17:15" },
-  { "id": 65, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿Quién fue vendido por sus propios hermanos y llegó a gobernar en Egipto?", "opciones": ["José", "Benjamín", "David", "Judá"], "correcta": 0, "ref": "Génesis 41:41" },
-  { "id": 66, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿Quién se subió a un árbol para poder ver pasar a Jesús?", "opciones": ["Zaqueo", "Nicodemo", "Lázaro", "Bartimeo"], "correcta": 0, "ref": "Lucas 19:4" },
-  { "id": 67, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿Qué reina valiente ayudó a salvar a su pueblo de la destrucción?", "opciones": ["Ester", "Jezabel", "Vasti", "Atalía"], "correcta": 0, "ref": "Ester 4:16" },
-  { "id": 68, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿Quién lo perdió todo y aun así siguió fiel a Dios?", "opciones": ["Job", "Jonás", "Amós", "Nehemías"], "correcta": 0, "ref": "Job 1:21" },
-  { "id": 69, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿Qué instrumento tocaba David para calmar al rey Saúl?", "opciones": ["El arpa", "La trompeta", "El tambor", "La flauta"], "correcta": 0, "ref": "1 Samuel 16:23" },
-  { "id": 70, "categoria": "Personajes", "dificultad": "facil", "pregunta": "¿Quién fue el primer rey de Israel?", "opciones": ["Saúl", "David", "Salomón", "Roboam"], "correcta": 0, "ref": "1 Samuel 10:1" },
-
-  { "id": 71, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿Quién era muy fuerte mientras no le cortaran el cabello?", "opciones": ["Sansón", "Gedeón", "Samuel", "Barac"], "correcta": 0, "ref": "Jueces 16:17" },
-  { "id": 72, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿Quién dijo a su suegra: «Tu pueblo será mi pueblo, y tu Dios mi Dios»?", "opciones": ["Rut", "Ester", "Débora", "Noemí"], "correcta": 0, "ref": "Rut 1:16" },
-  { "id": 73, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿Qué profeta subió al cielo en un torbellino, en un carro de fuego?", "opciones": ["Elías", "Isaías", "Jeremías", "Eliseo"], "correcta": 0, "ref": "2 Reyes 2:11" },
-  { "id": 74, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿Con qué derribó David al gigante Goliat?", "opciones": ["Con una honda y una piedra", "Con una espada", "Con un arco", "Con una lanza"], "correcta": 0, "ref": "1 Samuel 17:49-50" },
-  { "id": 75, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿Qué regalo especial le dio Jacob a su hijo José?", "opciones": ["Una túnica de colores", "Una espada", "Un caballo", "Un cayado"], "correcta": 0, "ref": "Génesis 37:3" },
-  { "id": 76, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿Quién soñó con una escalera que llegaba hasta el cielo, con ángeles subiendo y bajando?", "opciones": ["Jacob", "José", "Daniel", "Abraham"], "correcta": 0, "ref": "Génesis 28:12" },
-  { "id": 77, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿A quién le cambió Dios el nombre por Israel?", "opciones": ["Jacob", "Esaú", "José", "Isaac"], "correcta": 0, "ref": "Génesis 32:28" },
-  { "id": 78, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿Cómo se llamaba la esposa de Isaac?", "opciones": ["Rebeca", "Raquel", "Lea", "Zilpa"], "correcta": 0, "ref": "Génesis 24:67" },
-  { "id": 79, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿Qué le pidió el rey Salomón a Dios cuando este le ofreció cualquier cosa?", "opciones": ["Sabiduría", "Riquezas", "Victoria en la guerra", "Larga vida"], "correcta": 0, "ref": "1 Reyes 3:9-12" },
-  { "id": 80, "categoria": "Personajes", "dificultad": "media", "pregunta": "¿Qué hijo les dio Dios a Abraham y Sara ya en su vejez?", "opciones": ["Isaac", "Jacob", "José", "Ismael"], "correcta": 0, "ref": "Génesis 21:2-3" },
-
-  { "id": 81, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Cómo se llamaba el suegro de Moisés, sacerdote de Madián?", "opciones": ["Jetro", "Jobab", "Labán", "Coré"], "correcta": 0, "ref": "Éxodo 3:1" },
-  { "id": 82, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Qué jueza de Israel, junto con Barac, derrotó al ejército de Sísara?", "opciones": ["Débora", "Hulda", "Noa", "Milca"], "correcta": 0, "ref": "Jueces 4:14" },
-  { "id": 83, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Quién fue el escriba fiel que ayudó a Nehemías a leer la ley al pueblo?", "opciones": ["Ezra (Esdras)", "Baruc", "Hilcías", "Semaías"], "correcta": 0, "ref": "Nehemías 8:1-3" },
-  { "id": 84, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Cómo se llamaba el hijo de Saúl que fue gran amigo de David?", "opciones": ["Jonatán", "Abner", "Is-boset", "Mefi-boset"], "correcta": 0, "ref": "1 Samuel 18:1" },
-  { "id": 85, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Qué profetisa anciana reconoció al niño Jesús en el templo y habló de él?", "opciones": ["Ana", "Elisabet", "Noemí", "Hulda"], "correcta": 0, "ref": "Lucas 2:36-38" },
-  { "id": 86, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Quién fue el sumo sacerdote que interrogó a Jesús antes de entregarlo a Pilato?", "opciones": ["Caifás", "Anás", "Zacarías", "Melquisedec"], "correcta": 0, "ref": "Mateo 26:57" },
-  { "id": 87, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Qué mujer escondió a espías israelitas en Jericó y fue salvada por su fe?", "opciones": ["Rahab", "Débora", "Jael", "Rizpa"], "correcta": 0, "ref": "Josué 2:1-4" },
-  { "id": 88, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Cómo se llamaba el padre de Juan el Bautista, sacerdote que quedó mudo?", "opciones": ["Zacarías", "Simeón", "Elí", "Abías"], "correcta": 0, "ref": "Lucas 1:19-20" },
-  { "id": 89, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Qué discípulo era conocido como \"el gemelo\" (Dídimo)?", "opciones": ["Tomás", "Mateo", "Bartolomé", "Judas Tadeo"], "correcta": 0, "ref": "Juan 11:16" },
-  { "id": 90, "categoria": "Personajes", "dificultad": "dificil", "pregunta": "¿Quién fue el general del ejército de David que mató a Absalón en el bosque?", "opciones": ["Joab", "Abisai", "Benaía", "Amasa"], "correcta": 0, "ref": "2 Samuel 18:14-15" },
-
-  { "id": 91, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "¿Qué oración enseñó Jesús a sus discípulos?", "opciones": ["El Padre nuestro", "El cántico de Moisés", "La oración de Jonás", "El salmo de David"], "correcta": 0, "ref": "Mateo 6:9-13" },
-  { "id": 92, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "¿Qué parábola habla de un hijo que se va de la casa y luego vuelve a su padre?", "opciones": ["El hijo pródigo", "El sembrador", "Los talentos", "La red"], "correcta": 0, "ref": "Lucas 15:11-24" },
-  { "id": 93, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "¿Qué parábola habla de un hombre que cuidó a un herido que otros ignoraron?", "opciones": ["El buen samaritano", "El rico insensato", "La oveja perdida", "El fariseo y el publicano"], "correcta": 0, "ref": "Lucas 10:30-37" },
-  { "id": 94, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "Completa: «Porque de tal manera amó Dios al ___, que ha dado a su Hijo unigénito».", "opciones": ["mundo", "cielo", "templo", "pueblo"], "correcta": 0, "ref": "Juan 3:16" },
-  { "id": 95, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "Completa: «Todo lo puedo en ___ que me fortalece».", "opciones": ["Cristo", "la ley", "mis fuerzas", "oración"], "correcta": 0, "ref": "Filipenses 4:13" },
-  { "id": 96, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "Completa: «Lámpara es a mis pies tu ___, y lumbrera a mi camino».", "opciones": ["palabra", "luz", "fuego", "verdad"], "correcta": 0, "ref": "Salmos 119:105" },
-  { "id": 97, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "Completa: «Jehová es mi ___; nada me faltará».", "opciones": ["pastor", "rey", "amigo", "escudo"], "correcta": 0, "ref": "Salmos 23:1" },
-  { "id": 98, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "Completa: «El pan nuestro de cada día, dánoslo ___».", "opciones": ["hoy", "mañana", "siempre", "ahora"], "correcta": 0, "ref": "Mateo 6:11" },
-  { "id": 99, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "Completa: «Venid a mí todos los que estáis trabajados y cargados, y yo os haré ___».", "opciones": ["descansar", "trabajar", "esperar", "crecer"], "correcta": 0, "ref": "Mateo 11:28" },
-  { "id": 100, "categoria": "Parábolas y Enseñanzas", "dificultad": "facil", "pregunta": "¿Qué hizo Jesús cuando el viento y el mar se agitaron con una tormenta?", "opciones": ["Los calmó", "Se escondió", "Volvió a la orilla", "Durmió hasta que pasó"], "correcta": 0, "ref": "Marcos 4:39" },
-
-  { "id": 101, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "En la parábola de la oveja perdida, ¿cuántas ovejas dejó el pastor para ir a buscar la que faltaba?", "opciones": ["Noventa y nueve", "Diez", "Cincuenta", "Doce"], "correcta": 0, "ref": "Lucas 15:4" },
-  { "id": 102, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "Completa: «Yo soy el camino, y la verdad, y la ___».", "opciones": ["vida", "luz", "puerta", "paz"], "correcta": 0, "ref": "Juan 14:6" },
-  { "id": 103, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "¿Cuál es el primer fruto del Espíritu que se nombra en Gálatas 5?", "opciones": ["Amor", "Paciencia", "Templanza", "Gozo"], "correcta": 0, "ref": "Gálatas 5:22" },
-  { "id": 104, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "En la parábola de los talentos, ¿qué hizo el siervo que recibió un talento y lo escondió?", "opciones": ["Lo enterró en la tierra", "Lo invirtió y lo duplicó", "Lo repartió a los pobres", "Lo perdió en un viaje"], "correcta": 0, "ref": "Mateo 25:18" },
-  { "id": 105, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "¿Qué parábola compara el Reino de los cielos con una semilla muy pequeña que crece hasta ser un gran árbol?", "opciones": ["El grano de mostaza", "El sembrador", "La levadura", "La red"], "correcta": 0, "ref": "Mateo 13:31-32" },
-  { "id": 106, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "En la parábola del sembrador, ¿qué pasó con la semilla que cayó entre espinos?", "opciones": ["Los espinos la ahogaron", "Dio fruto abundante", "Las aves se la comieron", "Se secó al sol"], "correcta": 0, "ref": "Mateo 13:7" },
-  { "id": 107, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "¿Cuál es, según Jesús, el mandamiento más importante junto con amar al prójimo?", "opciones": ["Amar a Dios con todo el corazón", "Guardar el día de reposo", "No robar", "Honrar a los padres"], "correcta": 0, "ref": "Mateo 22:37-39" },
-  { "id": 108, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "En las bienaventuranzas, ¿quiénes son llamados \"bienaventurados\" por heredar la tierra?", "opciones": ["Los mansos", "Los ricos", "Los sabios", "Los fuertes"], "correcta": 0, "ref": "Mateo 5:5" },
-  { "id": 109, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "¿Qué parábola habla de diez mujeres que esperaban al novio, cinco con aceite y cinco sin él?", "opciones": ["Las diez vírgenes", "El gran banquete", "El mayordomo infiel", "El fariseo y el publicano"], "correcta": 0, "ref": "Mateo 25:1-13" },
-  { "id": 110, "categoria": "Parábolas y Enseñanzas", "dificultad": "media", "pregunta": "¿Quién, en una parábola de Jesús, se humilló en el templo diciendo «Dios, sé propicio a mí, pecador»?", "opciones": ["El publicano", "El fariseo", "El samaritano", "El sacerdote"], "correcta": 0, "ref": "Lucas 18:13" },
-
-  { "id": 111, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "En el Sermón del Monte, ¿qué pide Jesús que hagamos con quien nos pide prestado o nos golpea en una mejilla?", "opciones": ["No resistir al que es malo y dar la otra mejilla", "Defenderse con la ley", "Huir del lugar", "Pedir ayuda a los ancianos"], "correcta": 0, "ref": "Mateo 5:39" },
-  { "id": 112, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "En la parábola de los obreros de la viña, ¿cuánto recibió cada obrero al final del día, sin importar la hora en que empezó?", "opciones": ["Un denario", "Dos denarios", "Una moneda de oro", "Nada"], "correcta": 0, "ref": "Mateo 20:9-10" },
-  { "id": 113, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "¿Qué le respondió Jesús a Pedro sobre cuántas veces debía perdonar a su hermano?", "opciones": ["Setenta veces siete", "Siete veces", "Tres veces", "Hasta setenta veces"], "correcta": 0, "ref": "Mateo 18:22" },
-  { "id": 114, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "En la parábola del rico y Lázaro, ¿qué separaba a ambos después de la muerte?", "opciones": ["Una gran sima", "Un río", "Un desierto", "Una montaña"], "correcta": 0, "ref": "Lucas 16:26" },
-  { "id": 115, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "¿Qué enseñó Jesús que debemos hacer antes de ofrecer una ofrenda si tenemos algo contra un hermano?", "opciones": ["Reconciliarnos con él primero", "Esperar al día de reposo", "Pedir consejo al sacerdote", "Ofrecer el doble"], "correcta": 0, "ref": "Mateo 5:23-24" },
-  { "id": 116, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "En la parábola de la levadura, ¿con qué se compara el Reino de los cielos?", "opciones": ["Con levadura que una mujer mezcló en harina", "Con una red echada al mar", "Con un tesoro escondido", "Con una perla de gran precio"], "correcta": 0, "ref": "Mateo 13:33" },
-  { "id": 117, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "¿Qué dijo Jesús que es imposible, comparándolo con un camello pasando por el ojo de una aguja?", "opciones": ["Que un rico entre al Reino de Dios confiando en sus riquezas", "Que un pobre sea bendecido", "Que un niño entre al Reino de los cielos", "Que un pecador se arrepienta"], "correcta": 0, "ref": "Mateo 19:24" },
-  { "id": 118, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "En el discurso de la vid, ¿qué dijo Jesús que es él y qué son sus discípulos?", "opciones": ["Él es la vid verdadera y ellos los pámpanos", "Él es el sembrador y ellos la semilla", "Él es el pastor y ellos las ovejas", "Él es la puerta y ellos el camino"], "correcta": 0, "ref": "Juan 15:5" },
-  { "id": 119, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "¿Qué mandamiento nuevo dio Jesús a sus discípulos en la última cena?", "opciones": ["Que se amen unos a otros como él los amó", "Que guarden el día de reposo", "Que ayunen cada semana", "Que prediquen en todas las naciones"], "correcta": 0, "ref": "Juan 13:34" },
-  { "id": 120, "categoria": "Parábolas y Enseñanzas", "dificultad": "dificil", "pregunta": "Según 1 Corintios 13, ¿cuál es, junto con la fe y la esperanza, la mayor de las virtudes?", "opciones": ["El amor", "La paciencia", "La humildad", "El gozo"], "correcta": 0, "ref": "1 Corintios 13:13" },
-
-  { "id": 121, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántos libros tiene la Biblia en total (RVR1960)?", "opciones": ["66", "50", "100", "39"], "correcta": 0, "ref": null },
-  { "id": 122, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántos discípulos (apóstoles) escogió Jesús?", "opciones": ["Doce", "Diez", "Siete", "Veinte"], "correcta": 0, "ref": "Lucas 6:13" },
-  { "id": 123, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántos días ayunó Jesús en el desierto antes de ser tentado?", "opciones": ["Cuarenta", "Siete", "Tres", "Diez"], "correcta": 0, "ref": "Mateo 4:2" },
-  { "id": 124, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántos mandamientos recibió Moisés en las tablas de piedra?", "opciones": ["Diez", "Doce", "Siete", "Cinco"], "correcta": 0, "ref": "Éxodo 20" },
-  { "id": 125, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántos hijos tuvo Jacob, de los que salieron las doce tribus de Israel?", "opciones": ["Doce", "Diez", "Siete", "Nueve"], "correcta": 0, "ref": "Génesis 35:22" },
-  { "id": 126, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántos libros tiene el Nuevo Testamento?", "opciones": ["27", "39", "66", "12"], "correcta": 0, "ref": null },
-  { "id": 127, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántos libros tiene el Antiguo Testamento?", "opciones": ["39", "27", "66", "50"], "correcta": 0, "ref": null },
-  { "id": 128, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántos días caminaron los israelitas rodeando Jericó antes de que cayeran los muros?", "opciones": ["Siete días", "Cuarenta días", "Tres días", "Doce días"], "correcta": 0, "ref": "Josué 6:3-4" },
-  { "id": 129, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántas veces negó Pedro conocer a Jesús la noche de su arresto?", "opciones": ["Tres", "Una", "Siete", "Doce"], "correcta": 0, "ref": "Mateo 26:34" },
-  { "id": 130, "categoria": "Números y Datos", "dificultad": "facil", "pregunta": "¿Cuántos panes y peces usó Jesús para alimentar a los cinco mil?", "opciones": ["Cinco panes y dos peces", "Dos panes y cinco peces", "Siete panes y un pez", "Doce panes y tres peces"], "correcta": 0, "ref": "Mateo 14:17" },
-
-  { "id": 131, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Cuántos años vivió Matusalén, el hombre más longevo de la Biblia?", "opciones": ["969 años", "900 años", "777 años", "1000 años"], "correcta": 0, "ref": "Génesis 5:27" },
-  { "id": 132, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Cuántos años estuvo el pueblo de Israel en el desierto antes de entrar a la tierra prometida?", "opciones": ["Cuarenta años", "Diez años", "Cien años", "Veinte años"], "correcta": 0, "ref": "Números 14:33-34" },
-  { "id": 133, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Por cuántas monedas de plata fue vendido José por sus hermanos?", "opciones": ["Veinte piezas de plata", "Treinta piezas de plata", "Diez piezas de plata", "Cincuenta piezas de plata"], "correcta": 0, "ref": "Génesis 37:28" },
-  { "id": 134, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Cuántos capítulos tiene el libro de Génesis?", "opciones": ["50", "40", "66", "100"], "correcta": 0, "ref": "Génesis 50" },
-  { "id": 135, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Cuántos años reinó el rey Salomón sobre Israel?", "opciones": ["Cuarenta años", "Veinte años", "Diez años", "Setenta años"], "correcta": 0, "ref": "1 Reyes 11:42" },
-  { "id": 136, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Cuántas plagas envió Dios sobre Egipto antes de que el faraón dejara salir al pueblo?", "opciones": ["Diez", "Siete", "Doce", "Cinco"], "correcta": 0, "ref": "Éxodo 7-12" },
-  { "id": 137, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Cuántos espías envió Moisés a explorar la tierra de Canaán?", "opciones": ["Doce", "Diez", "Siete", "Cuarenta"], "correcta": 0, "ref": "Números 13:1-16" },
-  { "id": 138, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Cuántos días estuvo Lázaro muerto antes de que Jesús lo resucitara?", "opciones": ["Cuatro días", "Tres días", "Siete días", "Un día"], "correcta": 0, "ref": "Juan 11:39" },
-  { "id": 139, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Cuántos salmos tiene el libro de Salmos?", "opciones": ["150", "119", "100", "176"], "correcta": 0, "ref": "Salmos 150" },
-  { "id": 140, "categoria": "Números y Datos", "dificultad": "media", "pregunta": "¿Cuántos años tenía Abraham cuando nació su hijo Isaac?", "opciones": ["Cien años", "Setenta y cinco años", "Cincuenta años", "Ochenta años"], "correcta": 0, "ref": "Génesis 21:5" },
-
-  { "id": 141, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántos versículos tiene aproximadamente el Salmo 119, el capítulo más largo de la Biblia?", "opciones": ["176", "150", "119", "200"], "correcta": 0, "ref": "Salmos 119" },
-  { "id": 142, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántos años profetizó Noé construyendo el arca antes del diluvio, según la tradición basada en Génesis 5:32 y 7:6?", "opciones": ["Aproximadamente 100 años", "40 años", "10 años", "7 años"], "correcta": 0, "ref": "Génesis 5:32; 7:6" },
-  { "id": 143, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántos codos medía el arca de Noé de longitud?", "opciones": ["300 codos", "100 codos", "50 codos", "150 codos"], "correcta": 0, "ref": "Génesis 6:15" },
-  { "id": 144, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántos años gobernó Israel el rey David?", "opciones": ["Cuarenta años", "Veinte años", "Treinta años", "Cincuenta años"], "correcta": 0, "ref": "1 Reyes 2:11" },
-  { "id": 145, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántos capítulos tiene el libro de Isaías?", "opciones": ["66", "52", "39", "48"], "correcta": 0, "ref": "Isaías 66" },
-  { "id": 146, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántas cartas (epístolas) se atribuyen tradicionalmente al apóstol Pablo en el Nuevo Testamento?", "opciones": ["13", "27", "9", "21"], "correcta": 0, "ref": "Romanos 1:1" },
-  { "id": 147, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántos años tenía José cuando llegó a ser gobernador de Egipto?", "opciones": ["Treinta años", "Veinte años", "Cuarenta años", "Diecisiete años"], "correcta": 0, "ref": "Génesis 41:46" },
-  { "id": 148, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántos hombres escogió Gedeón para derrotar al ejército madianita?", "opciones": ["300", "1000", "10000", "50"], "correcta": 0, "ref": "Jueces 7:7" },
-  { "id": 149, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántos días pasó Jesús entre su resurrección y su ascensión al cielo, según Hechos?", "opciones": ["Cuarenta días", "Diez días", "Tres días", "Cincuenta días"], "correcta": 0, "ref": "Hechos 1:3" },
-  { "id": 150, "categoria": "Números y Datos", "dificultad": "dificil", "pregunta": "¿Cuántos capítulos tiene el libro de Apocalipsis?", "opciones": ["22", "27", "12", "66"], "correcta": 0, "ref": "Apocalipsis 22" }
+  {
+    "id": 1,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Quién construyó el arca por mandato de Dios?",
+    "opciones": [
+      "Noé",
+      "Moisés",
+      "Abraham",
+      "Jacob"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 6:14"
+  },
+  {
+    "id": 2,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el primer libro de la Biblia?",
+    "opciones": [
+      "Génesis",
+      "Éxodo",
+      "Levítico",
+      "Números"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 1:1"
+  },
+  {
+    "id": 3,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Quiénes fueron el primer hombre y la primera mujer?",
+    "opciones": [
+      "Adán y Eva",
+      "Abraham y Sara",
+      "Isaac y Rebeca",
+      "Jacob y Lea"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 3:20"
+  },
+  {
+    "id": 4,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Qué mar abrió Dios para que pasara el pueblo de Israel?",
+    "opciones": [
+      "El mar Rojo",
+      "El mar Muerto",
+      "El mar de Galilea",
+      "El mar Mediterráneo"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 14:21-22"
+  },
+  {
+    "id": 5,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Qué ciudad cayó cuando el pueblo gritó y tocó las bocinas?",
+    "opciones": [
+      "Jericó",
+      "Jerusalén",
+      "Nínive",
+      "Babel"
+    ],
+    "correcta": 0,
+    "ref": "Josué 6:20"
+  },
+  {
+    "id": 6,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Quién recibió las tablas de la ley en el monte Sinaí?",
+    "opciones": [
+      "Moisés",
+      "Aarón",
+      "Josué",
+      "Caleb"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 31:18"
+  },
+  {
+    "id": 7,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Qué alimento envió Dios del cielo en el desierto?",
+    "opciones": [
+      "El maná",
+      "Higos",
+      "Uvas",
+      "Miel"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 16:15"
+  },
+  {
+    "id": 8,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Quién sacó al pueblo de Israel de Egipto?",
+    "opciones": [
+      "Moisés",
+      "Josué",
+      "Samuel",
+      "Elías"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 3:10"
+  },
+  {
+    "id": 9,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿En cuántos días hizo Dios los cielos y la tierra?",
+    "opciones": [
+      "Seis",
+      "Tres",
+      "Diez",
+      "Cuarenta"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 20:11"
+  },
+  {
+    "id": 10,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Qué puso Dios en las nubes como señal después del diluvio?",
+    "opciones": [
+      "Su arco (el arco iris)",
+      "Una estrella",
+      "Una columna de fuego",
+      "Una paloma"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 9:13"
+  },
+  {
+    "id": 11,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos días y noches llovió durante el diluvio?",
+    "opciones": [
+      "Cuarenta",
+      "Siete",
+      "Tres",
+      "Cien"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 7:12"
+  },
+  {
+    "id": 12,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué ave volvió al arca con una hoja de olivo en el pico?",
+    "opciones": [
+      "Una paloma",
+      "Un águila",
+      "Un gorrión",
+      "Un cuervo"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 8:11"
+  },
+  {
+    "id": 13,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Cómo se llamó la torre donde Dios confundió las lenguas de los hombres?",
+    "opciones": [
+      "Babel",
+      "Sion",
+      "Jericó",
+      "Nínive"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 11:9"
+  },
+  {
+    "id": 14,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿En qué se convirtió la mujer de Lot al mirar atrás?",
+    "opciones": [
+      "En estatua de sal",
+      "En una piedra",
+      "En un árbol",
+      "En ceniza"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 19:26"
+  },
+  {
+    "id": 15,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué animal engañó a Eva en el huerto del Edén?",
+    "opciones": [
+      "La serpiente",
+      "El león",
+      "El cuervo",
+      "El lobo"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 3:13"
+  },
+  {
+    "id": 16,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué animal habló a Balaam en su camino?",
+    "opciones": [
+      "Una asna",
+      "Una serpiente",
+      "Un león",
+      "Un buey"
+    ],
+    "correcta": 0,
+    "ref": "Números 22:28"
+  },
+  {
+    "id": 17,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿A quién le habló Dios desde una zarza que ardía sin consumirse?",
+    "opciones": [
+      "Moisés",
+      "Abraham",
+      "Elías",
+      "Josué"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 3:2-4"
+  },
+  {
+    "id": 18,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué día de la semana reposó Dios después de la creación?",
+    "opciones": [
+      "El séptimo",
+      "El primero",
+      "El tercero",
+      "El sexto"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 2:2"
+  },
+  {
+    "id": 19,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Cuántas personas se salvaron dentro del arca de Noé?",
+    "opciones": [
+      "Ocho",
+      "Doce",
+      "Dos",
+      "Cuatro"
+    ],
+    "correcta": 0,
+    "ref": "1 Pedro 3:20"
+  },
+  {
+    "id": 20,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué construyó el rey Salomón en Jerusalén para Dios?",
+    "opciones": [
+      "El templo",
+      "Un arca nueva",
+      "Una muralla de oro",
+      "Un altar de plata"
+    ],
+    "correcta": 0,
+    "ref": "1 Reyes 6:1"
+  },
+  {
+    "id": 21,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos años vivió Matusalén según Génesis?",
+    "opciones": [
+      "969 años",
+      "777 años",
+      "500 años",
+      "1000 años"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 5:27"
+  },
+  {
+    "id": 22,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta enfrentó a 450 profetas de Baal en el monte Carmelo?",
+    "opciones": [
+      "Elías",
+      "Eliseo",
+      "Isaías",
+      "Jeremías"
+    ],
+    "correcta": 0,
+    "ref": "1 Reyes 18:19-40"
+  },
+  {
+    "id": 23,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llamaba la ciudad de la que Dios hizo huir a Jonás como profeta en vez de ir allí al principio?",
+    "opciones": [
+      "Nínive",
+      "Tarsis",
+      "Babilonia",
+      "Jope"
+    ],
+    "correcta": 0,
+    "ref": "Jonás 1:1-3"
+  },
+  {
+    "id": 24,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué rey de Babilonia soñó con una estatua de oro, plata, bronce, hierro y barro?",
+    "opciones": [
+      "Nabucodonosor",
+      "Belsasar",
+      "Darío",
+      "Ciro"
+    ],
+    "correcta": 0,
+    "ref": "Daniel 2:31-33"
+  },
+  {
+    "id": 25,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos capítulos tiene el libro de Salmos?",
+    "opciones": [
+      "150",
+      "100",
+      "119",
+      "176"
+    ],
+    "correcta": 0,
+    "ref": "Salmos 150"
+  },
+  {
+    "id": 26,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué juez de Israel derrotó a los madianitas con solo 300 hombres?",
+    "opciones": [
+      "Gedeón",
+      "Sansón",
+      "Débora",
+      "Jefté"
+    ],
+    "correcta": 0,
+    "ref": "Jueces 7:7"
+  },
+  {
+    "id": 27,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta vio un valle de huesos secos que volvían a la vida?",
+    "opciones": [
+      "Ezequiel",
+      "Jeremías",
+      "Daniel",
+      "Oseas"
+    ],
+    "correcta": 0,
+    "ref": "Ezequiel 37:1-10"
+  },
+  {
+    "id": 28,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el libro más corto del Antiguo Testamento?",
+    "opciones": [
+      "Abdías",
+      "Abdías o Nahúm (Abdías)",
+      "Rut",
+      "Ester"
+    ],
+    "correcta": 0,
+    "ref": "Abdías 1"
+  },
+  {
+    "id": 29,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué rey de Israel pecó al tomar a Betsabé, esposa de Urías?",
+    "opciones": [
+      "David",
+      "Salomón",
+      "Saúl",
+      "Acab"
+    ],
+    "correcta": 0,
+    "ref": "2 Samuel 11:2-4"
+  },
+  {
+    "id": 30,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿A qué altura, en codos, mandó Dios construir el arca de Noé?",
+    "opciones": [
+      "30 codos",
+      "50 codos",
+      "100 codos",
+      "10 codos"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 6:15"
+  },
+  {
+    "id": 31,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿En qué ciudad nació Jesús?",
+    "opciones": [
+      "Belén",
+      "Nazaret",
+      "Jericó",
+      "Jerusalén"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 2:1"
+  },
+  {
+    "id": 32,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llamaba la madre de Jesús?",
+    "opciones": [
+      "María",
+      "Marta",
+      "Ana",
+      "Elisabet"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 1:18"
+  },
+  {
+    "id": 33,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Quién bautizó a Jesús en el río Jordán?",
+    "opciones": [
+      "Juan el Bautista",
+      "Pedro",
+      "Pablo",
+      "Andrés"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 3:13"
+  },
+  {
+    "id": 34,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos discípulos escogió Jesús como apóstoles?",
+    "opciones": [
+      "Doce",
+      "Siete",
+      "Cuarenta",
+      "Diez"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 6:13"
+  },
+  {
+    "id": 35,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Dónde acostaron al niño Jesús cuando nació?",
+    "opciones": [
+      "En un pesebre",
+      "En el templo",
+      "En un palacio",
+      "En una posada"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 2:7"
+  },
+  {
+    "id": 36,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Quién negó a Jesús tres veces antes de que cantara el gallo?",
+    "opciones": [
+      "Pedro",
+      "Juan",
+      "Tomás",
+      "Felipe"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 26:75"
+  },
+  {
+    "id": 37,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Qué pasó con Jesús al tercer día después de morir?",
+    "opciones": [
+      "Resucitó",
+      "Se fue a Egipto",
+      "Subió a un monte a orar",
+      "Apareció en Roma"
+    ],
+    "correcta": 0,
+    "ref": "1 Corintios 15:4"
+  },
+  {
+    "id": 38,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Qué oficio tenían Pedro y Andrés antes de seguir a Jesús?",
+    "opciones": [
+      "Pescadores",
+      "Carpinteros",
+      "Pastores",
+      "Recaudadores"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 4:18"
+  },
+  {
+    "id": 39,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿En qué río fue bautizado Jesús?",
+    "opciones": [
+      "El Jordán",
+      "El Nilo",
+      "El Éufrates",
+      "El Tigris"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 3:13"
+  },
+  {
+    "id": 40,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál es el último libro de la Biblia?",
+    "opciones": [
+      "Apocalipsis",
+      "Malaquías",
+      "Judas",
+      "Hebreos"
+    ],
+    "correcta": 0,
+    "ref": "Apocalipsis 22:21"
+  },
+  {
+    "id": 41,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué hizo Jesús en las bodas de Caná?",
+    "opciones": [
+      "Convirtió el agua en vino",
+      "Multiplicó los panes",
+      "Calmó una tormenta",
+      "Caminó sobre el mar"
+    ],
+    "correcta": 0,
+    "ref": "Juan 2:9-11"
+  },
+  {
+    "id": 42,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos panes había cuando Jesús alimentó a los cinco mil?",
+    "opciones": [
+      "Cinco",
+      "Doce",
+      "Dos",
+      "Siete"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 14:17-21"
+  },
+  {
+    "id": 43,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Quién entregó a Jesús por treinta piezas de plata?",
+    "opciones": [
+      "Judas Iscariote",
+      "Andrés",
+      "Felipe",
+      "Tomás"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 26:14-16"
+  },
+  {
+    "id": 44,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿En qué lugar oró Jesús la noche antes de ser arrestado?",
+    "opciones": [
+      "Getsemaní",
+      "Edén",
+      "Belén",
+      "Capernaúm"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 26:36"
+  },
+  {
+    "id": 45,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué discípulo quiso ver las heridas de Jesús resucitado para creer?",
+    "opciones": [
+      "Tomás",
+      "Felipe",
+      "Mateo",
+      "Santiago"
+    ],
+    "correcta": 0,
+    "ref": "Juan 20:24-28"
+  },
+  {
+    "id": 46,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿A quién resucitó Jesús después de cuatro días en el sepulcro?",
+    "opciones": [
+      "Lázaro",
+      "Esteban",
+      "Bartimeo",
+      "Jairo"
+    ],
+    "correcta": 0,
+    "ref": "Juan 11:39-44"
+  },
+  {
+    "id": 47,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Cómo se llamaba Pablo antes de conocer a Jesús?",
+    "opciones": [
+      "Saulo",
+      "Simón",
+      "Silas",
+      "Bernabé"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 13:9"
+  },
+  {
+    "id": 48,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿En qué camino se le apareció Jesús resucitado a Saulo?",
+    "opciones": [
+      "El camino a Damasco",
+      "El camino a Emaús",
+      "El camino a Jericó",
+      "El camino a Antioquía"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 9:3"
+  },
+  {
+    "id": 49,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿En qué día vino el Espíritu Santo sobre los discípulos reunidos?",
+    "opciones": [
+      "El día de Pentecostés",
+      "El día de la Pascua",
+      "El día de reposo",
+      "El día de la ascensión"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 2:1-4"
+  },
+  {
+    "id": 50,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Sobre qué caminó Jesús para llegar a la barca de sus discípulos?",
+    "opciones": [
+      "Sobre el mar",
+      "Sobre el fuego",
+      "Sobre las nubes",
+      "Sobre un puente"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 14:25"
+  },
+  {
+    "id": 51,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos años tenía Jesús cuando se quedó enseñando en el templo entre los doctores?",
+    "opciones": [
+      "Doce",
+      "Diez",
+      "Quince",
+      "Ocho"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 2:42"
+  },
+  {
+    "id": 52,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué apóstol escribió el libro de Apocalipsis mientras estaba desterrado en la isla de Patmos?",
+    "opciones": [
+      "Juan",
+      "Pedro",
+      "Pablo",
+      "Santiago"
+    ],
+    "correcta": 0,
+    "ref": "Apocalipsis 1:9"
+  },
+  {
+    "id": 53,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos libros escribió el apóstol Pablo en el Nuevo Testamento, según la tradición más común?",
+    "opciones": [
+      "13",
+      "27",
+      "4",
+      "9"
+    ],
+    "correcta": 0,
+    "ref": "Romanos 1:1"
+  },
+  {
+    "id": 54,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llamaba el gobernador romano que juzgó a Jesús?",
+    "opciones": [
+      "Poncio Pilato",
+      "Herodes Antipas",
+      "Félix",
+      "Festo"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 27:2"
+  },
+  {
+    "id": 55,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué diácono fue apedreado y se convirtió en el primer mártir cristiano?",
+    "opciones": [
+      "Esteban",
+      "Felipe",
+      "Timoteo",
+      "Bernabé"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 7:59-60"
+  },
+  {
+    "id": 56,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué isla naufragó Pablo camino a Roma?",
+    "opciones": [
+      "Malta",
+      "Creta",
+      "Chipre",
+      "Rodas"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 28:1"
+  },
+  {
+    "id": 57,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuál es el primero de los cuatro evangelios en el Nuevo Testamento?",
+    "opciones": [
+      "Mateo",
+      "Marcos",
+      "Lucas",
+      "Juan"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 1:1"
+  },
+  {
+    "id": 58,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué mujer samaritana habló con Jesús junto a un pozo?",
+    "opciones": [
+      "No se menciona su nombre",
+      "Marta",
+      "María Magdalena",
+      "Rut"
+    ],
+    "correcta": 0,
+    "ref": "Juan 4:7-9"
+  },
+  {
+    "id": 59,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué centurión romano reconoció su fe y Jesús sanó a su siervo a distancia?",
+    "opciones": [
+      "Un centurión en Capernaúm",
+      "Cornelio",
+      "Julio",
+      "Claudio"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 8:5-13"
+  },
+  {
+    "id": 60,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿A quién se le apareció Jesús primero después de resucitar, según el evangelio de Juan?",
+    "opciones": [
+      "A María Magdalena",
+      "A Pedro",
+      "A los once discípulos",
+      "A Tomás"
+    ],
+    "correcta": 0,
+    "ref": "Juan 20:14-16"
+  },
+  {
+    "id": 61,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿Quién venció al gigante Goliat?",
+    "opciones": [
+      "David",
+      "Saúl",
+      "Sansón",
+      "Jonatán"
+    ],
+    "correcta": 0,
+    "ref": "1 Samuel 17:50"
+  },
+  {
+    "id": 62,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿Quién fue tragado por un gran pez?",
+    "opciones": [
+      "Jonás",
+      "Elías",
+      "Daniel",
+      "Noé"
+    ],
+    "correcta": 0,
+    "ref": "Jonás 1:17"
+  },
+  {
+    "id": 63,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿A quién echaron al foso de los leones por orar a Dios?",
+    "opciones": [
+      "Daniel",
+      "José",
+      "Pablo",
+      "Esteban"
+    ],
+    "correcta": 0,
+    "ref": "Daniel 6:16"
+  },
+  {
+    "id": 64,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿Cómo se llamaba la esposa de Abraham?",
+    "opciones": [
+      "Sara",
+      "Rut",
+      "Ester",
+      "Raquel"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 17:15"
+  },
+  {
+    "id": 65,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿Quién fue vendido por sus propios hermanos y llegó a gobernar en Egipto?",
+    "opciones": [
+      "José",
+      "Benjamín",
+      "David",
+      "Judá"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 41:41"
+  },
+  {
+    "id": 66,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿Quién se subió a un árbol para poder ver pasar a Jesús?",
+    "opciones": [
+      "Zaqueo",
+      "Nicodemo",
+      "Lázaro",
+      "Bartimeo"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 19:4"
+  },
+  {
+    "id": 67,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿Qué reina valiente ayudó a salvar a su pueblo de la destrucción?",
+    "opciones": [
+      "Ester",
+      "Jezabel",
+      "Vasti",
+      "Atalía"
+    ],
+    "correcta": 0,
+    "ref": "Ester 4:16"
+  },
+  {
+    "id": 68,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿Quién lo perdió todo y aun así siguió fiel a Dios?",
+    "opciones": [
+      "Job",
+      "Jonás",
+      "Amós",
+      "Nehemías"
+    ],
+    "correcta": 0,
+    "ref": "Job 1:21"
+  },
+  {
+    "id": 69,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿Qué instrumento tocaba David para calmar al rey Saúl?",
+    "opciones": [
+      "El arpa",
+      "La trompeta",
+      "El tambor",
+      "La flauta"
+    ],
+    "correcta": 0,
+    "ref": "1 Samuel 16:23"
+  },
+  {
+    "id": 70,
+    "categoria": "Personajes",
+    "dificultad": "facil",
+    "pregunta": "¿Quién fue el primer rey de Israel?",
+    "opciones": [
+      "Saúl",
+      "David",
+      "Salomón",
+      "Roboam"
+    ],
+    "correcta": 0,
+    "ref": "1 Samuel 10:1"
+  },
+  {
+    "id": 71,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Quién era muy fuerte mientras no le cortaran el cabello?",
+    "opciones": [
+      "Sansón",
+      "Gedeón",
+      "Samuel",
+      "Barac"
+    ],
+    "correcta": 0,
+    "ref": "Jueces 16:17"
+  },
+  {
+    "id": 72,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Quién dijo a su suegra: «Tu pueblo será mi pueblo, y tu Dios mi Dios»?",
+    "opciones": [
+      "Rut",
+      "Ester",
+      "Débora",
+      "Noemí"
+    ],
+    "correcta": 0,
+    "ref": "Rut 1:16"
+  },
+  {
+    "id": 73,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Qué profeta subió al cielo en un torbellino, en un carro de fuego?",
+    "opciones": [
+      "Elías",
+      "Isaías",
+      "Jeremías",
+      "Eliseo"
+    ],
+    "correcta": 0,
+    "ref": "2 Reyes 2:11"
+  },
+  {
+    "id": 74,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Con qué derribó David al gigante Goliat?",
+    "opciones": [
+      "Con una honda y una piedra",
+      "Con una espada",
+      "Con un arco",
+      "Con una lanza"
+    ],
+    "correcta": 0,
+    "ref": "1 Samuel 17:49-50"
+  },
+  {
+    "id": 75,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Qué regalo especial le dio Jacob a su hijo José?",
+    "opciones": [
+      "Una túnica de colores",
+      "Una espada",
+      "Un caballo",
+      "Un cayado"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 37:3"
+  },
+  {
+    "id": 76,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Quién soñó con una escalera que llegaba hasta el cielo, con ángeles subiendo y bajando?",
+    "opciones": [
+      "Jacob",
+      "José",
+      "Daniel",
+      "Abraham"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 28:12"
+  },
+  {
+    "id": 77,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿A quién le cambió Dios el nombre por Israel?",
+    "opciones": [
+      "Jacob",
+      "Esaú",
+      "José",
+      "Isaac"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 32:28"
+  },
+  {
+    "id": 78,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Cómo se llamaba la esposa de Isaac?",
+    "opciones": [
+      "Rebeca",
+      "Raquel",
+      "Lea",
+      "Zilpa"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 24:67"
+  },
+  {
+    "id": 79,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Qué le pidió el rey Salomón a Dios cuando este le ofreció cualquier cosa?",
+    "opciones": [
+      "Sabiduría",
+      "Riquezas",
+      "Victoria en la guerra",
+      "Larga vida"
+    ],
+    "correcta": 0,
+    "ref": "1 Reyes 3:9-12"
+  },
+  {
+    "id": 80,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Qué hijo les dio Dios a Abraham y Sara ya en su vejez?",
+    "opciones": [
+      "Isaac",
+      "Jacob",
+      "José",
+      "Ismael"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 21:2-3"
+  },
+  {
+    "id": 81,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llamaba el suegro de Moisés, sacerdote de Madián?",
+    "opciones": [
+      "Jetro",
+      "Jobab",
+      "Labán",
+      "Coré"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 3:1"
+  },
+  {
+    "id": 82,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué jueza de Israel, junto con Barac, derrotó al ejército de Sísara?",
+    "opciones": [
+      "Débora",
+      "Hulda",
+      "Noa",
+      "Milca"
+    ],
+    "correcta": 0,
+    "ref": "Jueces 4:14"
+  },
+  {
+    "id": 83,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Quién fue el escriba fiel que ayudó a Nehemías a leer la ley al pueblo?",
+    "opciones": [
+      "Ezra (Esdras)",
+      "Baruc",
+      "Hilcías",
+      "Semaías"
+    ],
+    "correcta": 0,
+    "ref": "Nehemías 8:1-3"
+  },
+  {
+    "id": 84,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llamaba el hijo de Saúl que fue gran amigo de David?",
+    "opciones": [
+      "Jonatán",
+      "Abner",
+      "Is-boset",
+      "Mefi-boset"
+    ],
+    "correcta": 0,
+    "ref": "1 Samuel 18:1"
+  },
+  {
+    "id": 85,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profetisa anciana reconoció al niño Jesús en el templo y habló de él?",
+    "opciones": [
+      "Ana",
+      "Elisabet",
+      "Noemí",
+      "Hulda"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 2:36-38"
+  },
+  {
+    "id": 86,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Quién fue el sumo sacerdote que interrogó a Jesús antes de entregarlo a Pilato?",
+    "opciones": [
+      "Caifás",
+      "Anás",
+      "Zacarías",
+      "Melquisedec"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 26:57"
+  },
+  {
+    "id": 87,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué mujer escondió a espías israelitas en Jericó y fue salvada por su fe?",
+    "opciones": [
+      "Rahab",
+      "Débora",
+      "Jael",
+      "Rizpa"
+    ],
+    "correcta": 0,
+    "ref": "Josué 2:1-4"
+  },
+  {
+    "id": 88,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llamaba el padre de Juan el Bautista, sacerdote que quedó mudo?",
+    "opciones": [
+      "Zacarías",
+      "Simeón",
+      "Elí",
+      "Abías"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 1:19-20"
+  },
+  {
+    "id": 89,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué discípulo era conocido como \"el gemelo\" (Dídimo)?",
+    "opciones": [
+      "Tomás",
+      "Mateo",
+      "Bartolomé",
+      "Judas Tadeo"
+    ],
+    "correcta": 0,
+    "ref": "Juan 11:16"
+  },
+  {
+    "id": 90,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Quién fue el general del ejército de David que mató a Absalón en el bosque?",
+    "opciones": [
+      "Joab",
+      "Abisai",
+      "Benaía",
+      "Amasa"
+    ],
+    "correcta": 0,
+    "ref": "2 Samuel 18:14-15"
+  },
+  {
+    "id": 91,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "¿Qué oración enseñó Jesús a sus discípulos?",
+    "opciones": [
+      "El Padre nuestro",
+      "El cántico de Moisés",
+      "La oración de Jonás",
+      "El salmo de David"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 6:9-13"
+  },
+  {
+    "id": 92,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "¿Qué parábola habla de un hijo que se va de la casa y luego vuelve a su padre?",
+    "opciones": [
+      "El hijo pródigo",
+      "El sembrador",
+      "Los talentos",
+      "La red"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 15:11-24"
+  },
+  {
+    "id": 93,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "¿Qué parábola habla de un hombre que cuidó a un herido que otros ignoraron?",
+    "opciones": [
+      "El buen samaritano",
+      "El rico insensato",
+      "La oveja perdida",
+      "El fariseo y el publicano"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 10:30-37"
+  },
+  {
+    "id": 94,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "Completa: «Porque de tal manera amó Dios al ___, que ha dado a su Hijo unigénito».",
+    "opciones": [
+      "mundo",
+      "cielo",
+      "templo",
+      "pueblo"
+    ],
+    "correcta": 0,
+    "ref": "Juan 3:16"
+  },
+  {
+    "id": 95,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "Completa: «Todo lo puedo en ___ que me fortalece».",
+    "opciones": [
+      "Cristo",
+      "la ley",
+      "mis fuerzas",
+      "oración"
+    ],
+    "correcta": 0,
+    "ref": "Filipenses 4:13"
+  },
+  {
+    "id": 96,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "Completa: «Lámpara es a mis pies tu ___, y lumbrera a mi camino».",
+    "opciones": [
+      "palabra",
+      "luz",
+      "fuego",
+      "verdad"
+    ],
+    "correcta": 0,
+    "ref": "Salmos 119:105"
+  },
+  {
+    "id": 97,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "Completa: «Jehová es mi ___; nada me faltará».",
+    "opciones": [
+      "pastor",
+      "rey",
+      "amigo",
+      "escudo"
+    ],
+    "correcta": 0,
+    "ref": "Salmos 23:1"
+  },
+  {
+    "id": 98,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "Completa: «El pan nuestro de cada día, dánoslo ___».",
+    "opciones": [
+      "hoy",
+      "mañana",
+      "siempre",
+      "ahora"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 6:11"
+  },
+  {
+    "id": 99,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "Completa: «Venid a mí todos los que estáis trabajados y cargados, y yo os haré ___».",
+    "opciones": [
+      "descansar",
+      "trabajar",
+      "esperar",
+      "crecer"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 11:28"
+  },
+  {
+    "id": 100,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "facil",
+    "pregunta": "¿Qué hizo Jesús cuando el viento y el mar se agitaron con una tormenta?",
+    "opciones": [
+      "Los calmó",
+      "Se escondió",
+      "Volvió a la orilla",
+      "Durmió hasta que pasó"
+    ],
+    "correcta": 0,
+    "ref": "Marcos 4:39"
+  },
+  {
+    "id": 101,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "En la parábola de la oveja perdida, ¿cuántas ovejas dejó el pastor para ir a buscar la que faltaba?",
+    "opciones": [
+      "Noventa y nueve",
+      "Diez",
+      "Cincuenta",
+      "Doce"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 15:4"
+  },
+  {
+    "id": 102,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "Completa: «Yo soy el camino, y la verdad, y la ___».",
+    "opciones": [
+      "vida",
+      "luz",
+      "puerta",
+      "paz"
+    ],
+    "correcta": 0,
+    "ref": "Juan 14:6"
+  },
+  {
+    "id": 103,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es el primer fruto del Espíritu que se nombra en Gálatas 5?",
+    "opciones": [
+      "Amor",
+      "Paciencia",
+      "Templanza",
+      "Gozo"
+    ],
+    "correcta": 0,
+    "ref": "Gálatas 5:22"
+  },
+  {
+    "id": 104,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "En la parábola de los talentos, ¿qué hizo el siervo que recibió un talento y lo escondió?",
+    "opciones": [
+      "Lo enterró en la tierra",
+      "Lo invirtió y lo duplicó",
+      "Lo repartió a los pobres",
+      "Lo perdió en un viaje"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 25:18"
+  },
+  {
+    "id": 105,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Qué parábola compara el Reino de los cielos con una semilla muy pequeña que crece hasta ser un gran árbol?",
+    "opciones": [
+      "El grano de mostaza",
+      "El sembrador",
+      "La levadura",
+      "La red"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 13:31-32"
+  },
+  {
+    "id": 106,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "En la parábola del sembrador, ¿qué pasó con la semilla que cayó entre espinos?",
+    "opciones": [
+      "Los espinos la ahogaron",
+      "Dio fruto abundante",
+      "Las aves se la comieron",
+      "Se secó al sol"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 13:7"
+  },
+  {
+    "id": 107,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Cuál es, según Jesús, el mandamiento más importante junto con amar al prójimo?",
+    "opciones": [
+      "Amar a Dios con todo el corazón",
+      "Guardar el día de reposo",
+      "No robar",
+      "Honrar a los padres"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 22:37-39"
+  },
+  {
+    "id": 108,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "En las bienaventuranzas, ¿quiénes son llamados \"bienaventurados\" por heredar la tierra?",
+    "opciones": [
+      "Los mansos",
+      "Los ricos",
+      "Los sabios",
+      "Los fuertes"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 5:5"
+  },
+  {
+    "id": 109,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Qué parábola habla de diez mujeres que esperaban al novio, cinco con aceite y cinco sin él?",
+    "opciones": [
+      "Las diez vírgenes",
+      "El gran banquete",
+      "El mayordomo infiel",
+      "El fariseo y el publicano"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 25:1-13"
+  },
+  {
+    "id": 110,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Quién, en una parábola de Jesús, se humilló en el templo diciendo «Dios, sé propicio a mí, pecador»?",
+    "opciones": [
+      "El publicano",
+      "El fariseo",
+      "El samaritano",
+      "El sacerdote"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 18:13"
+  },
+  {
+    "id": 111,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "En el Sermón del Monte, ¿qué pide Jesús que hagamos con quien nos pide prestado o nos golpea en una mejilla?",
+    "opciones": [
+      "No resistir al que es malo y dar la otra mejilla",
+      "Defenderse con la ley",
+      "Huir del lugar",
+      "Pedir ayuda a los ancianos"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 5:39"
+  },
+  {
+    "id": 112,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "En la parábola de los obreros de la viña, ¿cuánto recibió cada obrero al final del día, sin importar la hora en que empezó?",
+    "opciones": [
+      "Un denario",
+      "Dos denarios",
+      "Una moneda de oro",
+      "Nada"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 20:9-10"
+  },
+  {
+    "id": 113,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué le respondió Jesús a Pedro sobre cuántas veces debía perdonar a su hermano?",
+    "opciones": [
+      "Setenta veces siete",
+      "Siete veces",
+      "Tres veces",
+      "Hasta setenta veces"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 18:22"
+  },
+  {
+    "id": 114,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "En la parábola del rico y Lázaro, ¿qué separaba a ambos después de la muerte?",
+    "opciones": [
+      "Una gran sima",
+      "Un río",
+      "Un desierto",
+      "Una montaña"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 16:26"
+  },
+  {
+    "id": 115,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué enseñó Jesús que debemos hacer antes de ofrecer una ofrenda si tenemos algo contra un hermano?",
+    "opciones": [
+      "Reconciliarnos con él primero",
+      "Esperar al día de reposo",
+      "Pedir consejo al sacerdote",
+      "Ofrecer el doble"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 5:23-24"
+  },
+  {
+    "id": 116,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "En la parábola de la levadura, ¿con qué se compara el Reino de los cielos?",
+    "opciones": [
+      "Con levadura que una mujer mezcló en harina",
+      "Con una red echada al mar",
+      "Con un tesoro escondido",
+      "Con una perla de gran precio"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 13:33"
+  },
+  {
+    "id": 117,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué dijo Jesús que es imposible, comparándolo con un camello pasando por el ojo de una aguja?",
+    "opciones": [
+      "Que un rico entre al Reino de Dios confiando en sus riquezas",
+      "Que un pobre sea bendecido",
+      "Que un niño entre al Reino de los cielos",
+      "Que un pecador se arrepienta"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 19:24"
+  },
+  {
+    "id": 118,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "En el discurso de la vid, ¿qué dijo Jesús que es él y qué son sus discípulos?",
+    "opciones": [
+      "Él es la vid verdadera y ellos los pámpanos",
+      "Él es el sembrador y ellos la semilla",
+      "Él es el pastor y ellos las ovejas",
+      "Él es la puerta y ellos el camino"
+    ],
+    "correcta": 0,
+    "ref": "Juan 15:5"
+  },
+  {
+    "id": 119,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué mandamiento nuevo dio Jesús a sus discípulos en la última cena?",
+    "opciones": [
+      "Que se amen unos a otros como él los amó",
+      "Que guarden el día de reposo",
+      "Que ayunen cada semana",
+      "Que prediquen en todas las naciones"
+    ],
+    "correcta": 0,
+    "ref": "Juan 13:34"
+  },
+  {
+    "id": 120,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "Según 1 Corintios 13, ¿cuál es, junto con la fe y la esperanza, la mayor de las virtudes?",
+    "opciones": [
+      "El amor",
+      "La paciencia",
+      "La humildad",
+      "El gozo"
+    ],
+    "correcta": 0,
+    "ref": "1 Corintios 13:13"
+  },
+  {
+    "id": 121,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos libros tiene la Biblia en total (RVR1960)?",
+    "opciones": [
+      "66",
+      "50",
+      "100",
+      "39"
+    ],
+    "correcta": 0,
+    "ref": null
+  },
+  {
+    "id": 122,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos discípulos (apóstoles) escogió Jesús?",
+    "opciones": [
+      "Doce",
+      "Diez",
+      "Siete",
+      "Veinte"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 6:13"
+  },
+  {
+    "id": 123,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos días ayunó Jesús en el desierto antes de ser tentado?",
+    "opciones": [
+      "Cuarenta",
+      "Siete",
+      "Tres",
+      "Diez"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 4:2"
+  },
+  {
+    "id": 124,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos mandamientos recibió Moisés en las tablas de piedra?",
+    "opciones": [
+      "Diez",
+      "Doce",
+      "Siete",
+      "Cinco"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 20"
+  },
+  {
+    "id": 125,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos hijos tuvo Jacob, de los que salieron las doce tribus de Israel?",
+    "opciones": [
+      "Doce",
+      "Diez",
+      "Siete",
+      "Nueve"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 35:22"
+  },
+  {
+    "id": 126,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos libros tiene el Nuevo Testamento?",
+    "opciones": [
+      "27",
+      "39",
+      "66",
+      "12"
+    ],
+    "correcta": 0,
+    "ref": null
+  },
+  {
+    "id": 127,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos libros tiene el Antiguo Testamento?",
+    "opciones": [
+      "39",
+      "27",
+      "66",
+      "50"
+    ],
+    "correcta": 0,
+    "ref": null
+  },
+  {
+    "id": 128,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos días caminaron los israelitas rodeando Jericó antes de que cayeran los muros?",
+    "opciones": [
+      "Siete días",
+      "Cuarenta días",
+      "Tres días",
+      "Doce días"
+    ],
+    "correcta": 0,
+    "ref": "Josué 6:3-4"
+  },
+  {
+    "id": 129,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántas veces negó Pedro conocer a Jesús la noche de su arresto?",
+    "opciones": [
+      "Tres",
+      "Una",
+      "Siete",
+      "Doce"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 26:34"
+  },
+  {
+    "id": 130,
+    "categoria": "Números y Datos",
+    "dificultad": "facil",
+    "pregunta": "¿Cuántos panes y peces usó Jesús para alimentar a los cinco mil?",
+    "opciones": [
+      "Cinco panes y dos peces",
+      "Dos panes y cinco peces",
+      "Siete panes y un pez",
+      "Doce panes y tres peces"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 14:17"
+  },
+  {
+    "id": 131,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos años vivió Matusalén, el hombre más longevo de la Biblia?",
+    "opciones": [
+      "969 años",
+      "900 años",
+      "777 años",
+      "1000 años"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 5:27"
+  },
+  {
+    "id": 132,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos años estuvo el pueblo de Israel en el desierto antes de entrar a la tierra prometida?",
+    "opciones": [
+      "Cuarenta años",
+      "Diez años",
+      "Cien años",
+      "Veinte años"
+    ],
+    "correcta": 0,
+    "ref": "Números 14:33-34"
+  },
+  {
+    "id": 133,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Por cuántas monedas de plata fue vendido José por sus hermanos?",
+    "opciones": [
+      "Veinte piezas de plata",
+      "Treinta piezas de plata",
+      "Diez piezas de plata",
+      "Cincuenta piezas de plata"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 37:28"
+  },
+  {
+    "id": 134,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos capítulos tiene el libro de Génesis?",
+    "opciones": [
+      "50",
+      "40",
+      "66",
+      "100"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 50"
+  },
+  {
+    "id": 135,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos años reinó el rey Salomón sobre Israel?",
+    "opciones": [
+      "Cuarenta años",
+      "Veinte años",
+      "Diez años",
+      "Setenta años"
+    ],
+    "correcta": 0,
+    "ref": "1 Reyes 11:42"
+  },
+  {
+    "id": 136,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántas plagas envió Dios sobre Egipto antes de que el faraón dejara salir al pueblo?",
+    "opciones": [
+      "Diez",
+      "Siete",
+      "Doce",
+      "Cinco"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 7-12"
+  },
+  {
+    "id": 137,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos espías envió Moisés a explorar la tierra de Canaán?",
+    "opciones": [
+      "Doce",
+      "Diez",
+      "Siete",
+      "Cuarenta"
+    ],
+    "correcta": 0,
+    "ref": "Números 13:1-16"
+  },
+  {
+    "id": 138,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos días estuvo Lázaro muerto antes de que Jesús lo resucitara?",
+    "opciones": [
+      "Cuatro días",
+      "Tres días",
+      "Siete días",
+      "Un día"
+    ],
+    "correcta": 0,
+    "ref": "Juan 11:39"
+  },
+  {
+    "id": 139,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos salmos tiene el libro de Salmos?",
+    "opciones": [
+      "150",
+      "119",
+      "100",
+      "176"
+    ],
+    "correcta": 0,
+    "ref": "Salmos 150"
+  },
+  {
+    "id": 140,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos años tenía Abraham cuando nació su hijo Isaac?",
+    "opciones": [
+      "Cien años",
+      "Setenta y cinco años",
+      "Cincuenta años",
+      "Ochenta años"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 21:5"
+  },
+  {
+    "id": 141,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos versículos tiene aproximadamente el Salmo 119, el capítulo más largo de la Biblia?",
+    "opciones": [
+      "176",
+      "150",
+      "119",
+      "200"
+    ],
+    "correcta": 0,
+    "ref": "Salmos 119"
+  },
+  {
+    "id": 142,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos años profetizó Noé construyendo el arca antes del diluvio, según la tradición basada en Génesis 5:32 y 7:6?",
+    "opciones": [
+      "Aproximadamente 100 años",
+      "40 años",
+      "10 años",
+      "7 años"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 5:32; 7:6"
+  },
+  {
+    "id": 143,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos codos medía el arca de Noé de longitud?",
+    "opciones": [
+      "300 codos",
+      "100 codos",
+      "50 codos",
+      "150 codos"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 6:15"
+  },
+  {
+    "id": 144,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos años gobernó Israel el rey David?",
+    "opciones": [
+      "Cuarenta años",
+      "Veinte años",
+      "Treinta años",
+      "Cincuenta años"
+    ],
+    "correcta": 0,
+    "ref": "1 Reyes 2:11"
+  },
+  {
+    "id": 145,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos capítulos tiene el libro de Isaías?",
+    "opciones": [
+      "66",
+      "52",
+      "39",
+      "48"
+    ],
+    "correcta": 0,
+    "ref": "Isaías 66"
+  },
+  {
+    "id": 146,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántas cartas (epístolas) se atribuyen tradicionalmente al apóstol Pablo en el Nuevo Testamento?",
+    "opciones": [
+      "13",
+      "27",
+      "9",
+      "21"
+    ],
+    "correcta": 0,
+    "ref": "Romanos 1:1"
+  },
+  {
+    "id": 147,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos años tenía José cuando llegó a ser gobernador de Egipto?",
+    "opciones": [
+      "Treinta años",
+      "Veinte años",
+      "Cuarenta años",
+      "Diecisiete años"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 41:46"
+  },
+  {
+    "id": 148,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos hombres escogió Gedeón para derrotar al ejército madianita?",
+    "opciones": [
+      "300",
+      "1000",
+      "10000",
+      "50"
+    ],
+    "correcta": 0,
+    "ref": "Jueces 7:7"
+  },
+  {
+    "id": 149,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos días pasó Jesús entre su resurrección y su ascensión al cielo, según Hechos?",
+    "opciones": [
+      "Cuarenta días",
+      "Diez días",
+      "Tres días",
+      "Cincuenta días"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 1:3"
+  },
+  {
+    "id": 150,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos capítulos tiene el libro de Apocalipsis?",
+    "opciones": [
+      "22",
+      "27",
+      "12",
+      "66"
+    ],
+    "correcta": 0,
+    "ref": "Apocalipsis 22"
+  },
+  {
+    "id": 151,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Qué animal debía sacrificarse como ofrenda en la Pascua, según Éxodo?",
+    "opciones": [
+      "Un cordero",
+      "Un toro",
+      "Una paloma",
+      "Un cabrito"
+    ],
+    "correcta": 0,
+    "ref": "Éxodo 12:21"
+  },
+  {
+    "id": 152,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué tribu de Israel fue apartada para el servicio del santuario, sin recibir tierra propia?",
+    "opciones": [
+      "Leví",
+      "Judá",
+      "Benjamín",
+      "Efraín"
+    ],
+    "correcta": 0,
+    "ref": "Números 18:20"
+  },
+  {
+    "id": 153,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué libro contiene principalmente las leyes sobre sacrificios, pureza y el día de la expiación?",
+    "opciones": [
+      "Levítico",
+      "Números",
+      "Deuteronomio",
+      "Josué"
+    ],
+    "correcta": 0,
+    "ref": "Levítico 16"
+  },
+  {
+    "id": 154,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Quién sucedió a Moisés como líder de Israel para entrar a la tierra prometida?",
+    "opciones": [
+      "Josué",
+      "Caleb",
+      "Finees",
+      "Aarón"
+    ],
+    "correcta": 0,
+    "ref": "Deuteronomio 31:7"
+  },
+  {
+    "id": 155,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿En qué libro Moisés repite la ley al pueblo antes de entrar a Canaán?",
+    "opciones": [
+      "Deuteronomio",
+      "Levítico",
+      "Números",
+      "Génesis"
+    ],
+    "correcta": 0,
+    "ref": "Deuteronomio 1:1"
+  },
+  {
+    "id": 156,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué juez de Israel liberó al pueblo tras sacrificar a su propia hija por una promesa?",
+    "opciones": [
+      "Jefté",
+      "Gedeón",
+      "Barac",
+      "Tola"
+    ],
+    "correcta": 0,
+    "ref": "Jueces 11:30-31"
+  },
+  {
+    "id": 157,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Quién fue el último juez de Israel y también sacerdote, que crio al profeta Samuel?",
+    "opciones": [
+      "Elí",
+      "Samuel",
+      "Finees",
+      "Ofni"
+    ],
+    "correcta": 0,
+    "ref": "1 Samuel 1:9"
+  },
+  {
+    "id": 158,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llamaba el hijo de David que se rebeló contra su padre y murió colgado de un árbol?",
+    "opciones": [
+      "Absalón",
+      "Amnón",
+      "Adonías",
+      "Salomón"
+    ],
+    "correcta": 0,
+    "ref": "2 Samuel 18:9-15"
+  },
+  {
+    "id": 159,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué rey de Israel se dividió el reino tras la muerte de Salomón: Roboam gobernó Judá y...?",
+    "opciones": [
+      "Jeroboam gobernó Israel",
+      "Acab gobernó Israel",
+      "Omri gobernó Israel",
+      "Baasa gobernó Israel"
+    ],
+    "correcta": 0,
+    "ref": "1 Reyes 12:20"
+  },
+  {
+    "id": 160,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué reina malvada de Israel, esposa de Acab, persiguió a los profetas de Jehová?",
+    "opciones": [
+      "Jezabel",
+      "Atalía",
+      "Vasti",
+      "Ester"
+    ],
+    "correcta": 0,
+    "ref": "1 Reyes 18:4"
+  },
+  {
+    "id": 161,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué profeta recibió doble porción del espíritu de Elías al sucederlo?",
+    "opciones": [
+      "Eliseo",
+      "Isaías",
+      "Jeremías",
+      "Miqueas"
+    ],
+    "correcta": 0,
+    "ref": "2 Reyes 2:9-15"
+  },
+  {
+    "id": 162,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué libros narran de nuevo la historia de los reyes de Judá, con énfasis en el templo y la genealogía?",
+    "opciones": [
+      "1 y 2 Crónicas",
+      "1 y 2 Reyes",
+      "Ezra y Nehemías",
+      "Josué y Jueces"
+    ],
+    "correcta": 0,
+    "ref": "1 Crónicas 1:1"
+  },
+  {
+    "id": 163,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Quién dirigió la reconstrucción del muro de Jerusalén tras el exilio?",
+    "opciones": [
+      "Nehemías",
+      "Ezra",
+      "Zorobabel",
+      "Hageo"
+    ],
+    "correcta": 0,
+    "ref": "Nehemías 2:17-18"
+  },
+  {
+    "id": 164,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Quién fue el sacerdote y escriba que leyó la ley al pueblo tras el regreso del exilio?",
+    "opciones": [
+      "Ezra (Esdras)",
+      "Nehemías",
+      "Hageo",
+      "Zacarías"
+    ],
+    "correcta": 0,
+    "ref": "Nehemías 8:1-3"
+  },
+  {
+    "id": 165,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué libro poético contiene diálogos entre Job y sus amigos sobre el sufrimiento?",
+    "opciones": [
+      "Job",
+      "Salmos",
+      "Proverbios",
+      "Eclesiastés"
+    ],
+    "correcta": 0,
+    "ref": "Job 2:11"
+  },
+  {
+    "id": 166,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Qué libro de la Biblia está lleno de consejos prácticos de sabiduría, atribuidos principalmente a Salomón?",
+    "opciones": [
+      "Proverbios",
+      "Salmos",
+      "Job",
+      "Eclesiastés"
+    ],
+    "correcta": 0,
+    "ref": "Proverbios 1:1"
+  },
+  {
+    "id": 167,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué libro repite la frase «vanidad de vanidades» reflexionando sobre el sentido de la vida?",
+    "opciones": [
+      "Eclesiastés",
+      "Job",
+      "Proverbios",
+      "Cantares"
+    ],
+    "correcta": 0,
+    "ref": "Eclesiastés 1:2"
+  },
+  {
+    "id": 168,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué libro poético celebra el amor entre un esposo y su esposa con lenguaje muy poético?",
+    "opciones": [
+      "Cantar de los Cantares",
+      "Salmos",
+      "Lamentaciones",
+      "Rut"
+    ],
+    "correcta": 0,
+    "ref": "Cantares 1:1"
+  },
+  {
+    "id": 169,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué profeta anunció que un niño nacería de una virgen y sería llamado Emanuel?",
+    "opciones": [
+      "Isaías",
+      "Jeremías",
+      "Ezequiel",
+      "Miqueas"
+    ],
+    "correcta": 0,
+    "ref": "Isaías 7:14"
+  },
+  {
+    "id": 170,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta es llamado «el profeta llorón» por anunciar juicio con gran dolor por su pueblo?",
+    "opciones": [
+      "Jeremías",
+      "Isaías",
+      "Ezequiel",
+      "Joel"
+    ],
+    "correcta": 0,
+    "ref": "Jeremías 9:1"
+  },
+  {
+    "id": 171,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué libro corto, atribuido a Jeremías, llora la destrucción de Jerusalén?",
+    "opciones": [
+      "Lamentaciones",
+      "Abdías",
+      "Nahúm",
+      "Sofonías"
+    ],
+    "correcta": 0,
+    "ref": "Lamentaciones 1:1"
+  },
+  {
+    "id": 172,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué profeta tuvo una visión de ruedas vivientes y la gloria de Dios sobre un carro celestial?",
+    "opciones": [
+      "Ezequiel",
+      "Daniel",
+      "Isaías",
+      "Zacarías"
+    ],
+    "correcta": 0,
+    "ref": "Ezequiel 1:15-20"
+  },
+  {
+    "id": 173,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué libro cuenta la historia de tres jóvenes que fueron echados a un horno de fuego por no adorar una imagen?",
+    "opciones": [
+      "Daniel",
+      "Ezequiel",
+      "Jeremías",
+      "Ester"
+    ],
+    "correcta": 0,
+    "ref": "Daniel 3:19-27"
+  },
+  {
+    "id": 174,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta se casó con una mujer infiel como símbolo del amor de Dios por un pueblo infiel?",
+    "opciones": [
+      "Oseas",
+      "Joel",
+      "Amós",
+      "Miqueas"
+    ],
+    "correcta": 0,
+    "ref": "Oseas 1:2-3"
+  },
+  {
+    "id": 175,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta anunció una plaga de langostas como juicio de Dios sobre Judá?",
+    "opciones": [
+      "Joel",
+      "Amós",
+      "Abdías",
+      "Nahúm"
+    ],
+    "correcta": 0,
+    "ref": "Joel 1:4"
+  },
+  {
+    "id": 176,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta, antes pastor de ovejas, denunció la injusticia social en Israel?",
+    "opciones": [
+      "Amós",
+      "Oseas",
+      "Miqueas",
+      "Habacuc"
+    ],
+    "correcta": 0,
+    "ref": "Amós 1:1"
+  },
+  {
+    "id": 177,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué libro profético, el más corto del Antiguo Testamento, anuncia juicio contra Edom?",
+    "opciones": [
+      "Abdías",
+      "Nahúm",
+      "Sofonías",
+      "Hageo"
+    ],
+    "correcta": 0,
+    "ref": "Abdías 1"
+  },
+  {
+    "id": 178,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta anunció la destrucción de Nínive, la misma ciudad a la que antes había ido Jonás?",
+    "opciones": [
+      "Nahúm",
+      "Jonás",
+      "Miqueas",
+      "Habacuc"
+    ],
+    "correcta": 0,
+    "ref": "Nahúm 1:1"
+  },
+  {
+    "id": 179,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta preguntó a Dios por qué permitía la violencia e injusticia, y recibió la respuesta de que «el justo vivirá por su fe»?",
+    "opciones": [
+      "Habacuc",
+      "Sofonías",
+      "Hageo",
+      "Zacarías"
+    ],
+    "correcta": 0,
+    "ref": "Habacuc 2:4"
+  },
+  {
+    "id": 180,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta anunció «el día de Jehová» como un día de juicio cercano para Judá?",
+    "opciones": [
+      "Sofonías",
+      "Hageo",
+      "Zacarías",
+      "Malaquías"
+    ],
+    "correcta": 0,
+    "ref": "Sofonías 1:14"
+  },
+  {
+    "id": 181,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué profeta animó al pueblo a terminar de reconstruir el templo tras el exilio?",
+    "opciones": [
+      "Hageo",
+      "Zacarías",
+      "Malaquías",
+      "Nehemías"
+    ],
+    "correcta": 0,
+    "ref": "Hageo 1:8"
+  },
+  {
+    "id": 182,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profeta tuvo visiones de un hombre entre mirtos y de un libro volador, animando la reconstrucción del templo?",
+    "opciones": [
+      "Zacarías",
+      "Hageo",
+      "Malaquías",
+      "Daniel"
+    ],
+    "correcta": 0,
+    "ref": "Zacarías 1:8"
+  },
+  {
+    "id": 183,
+    "categoria": "Antiguo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué profeta, el último del Antiguo Testamento, reprendió al pueblo por no traer los diezmos completos?",
+    "opciones": [
+      "Malaquías",
+      "Hageo",
+      "Zacarías",
+      "Abdías"
+    ],
+    "correcta": 0,
+    "ref": "Malaquías 3:8"
+  },
+  {
+    "id": 184,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "facil",
+    "pregunta": "¿Cuál de los cuatro evangelios se enfoca en Jesús como siervo, con un ritmo más rápido de acción?",
+    "opciones": [
+      "Marcos",
+      "Mateo",
+      "Lucas",
+      "Juan"
+    ],
+    "correcta": 0,
+    "ref": "Marcos 1:1"
+  },
+  {
+    "id": 185,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué evangelio fue escrito por un médico y también escribió el libro de Hechos?",
+    "opciones": [
+      "Lucas",
+      "Marcos",
+      "Mateo",
+      "Juan"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 1:3"
+  },
+  {
+    "id": 186,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué evangelio comienza diciendo «En el principio era el Verbo»?",
+    "opciones": [
+      "Juan",
+      "Mateo",
+      "Marcos",
+      "Lucas"
+    ],
+    "correcta": 0,
+    "ref": "Juan 1:1"
+  },
+  {
+    "id": 187,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué libro narra la expansión de la iglesia primitiva después de la ascensión de Jesús?",
+    "opciones": [
+      "Hechos de los Apóstoles",
+      "Apocalipsis",
+      "Romanos",
+      "Santiago"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 1:8"
+  },
+  {
+    "id": 188,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿A qué iglesia escribió Pablo la carta que explica con más profundidad la salvación por la fe y no por obras?",
+    "opciones": [
+      "A los romanos",
+      "A los gálatas",
+      "A los efesios",
+      "A los corintios"
+    ],
+    "correcta": 0,
+    "ref": "Romanos 1:17"
+  },
+  {
+    "id": 189,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿En qué carta describe Pablo el amor con las palabras «el amor es sufrido, es benigno»?",
+    "opciones": [
+      "1 Corintios",
+      "2 Corintios",
+      "Gálatas",
+      "Efesios"
+    ],
+    "correcta": 0,
+    "ref": "1 Corintios 13:4"
+  },
+  {
+    "id": 190,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué carta Pablo habla de un «aguijón en la carne» que le fue dado para evitar el orgullo?",
+    "opciones": [
+      "2 Corintios",
+      "1 Corintios",
+      "Filipenses",
+      "Colosenses"
+    ],
+    "correcta": 0,
+    "ref": "2 Corintios 12:7"
+  },
+  {
+    "id": 191,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿En qué carta Pablo enumera el fruto del Espíritu: amor, gozo, paz...?",
+    "opciones": [
+      "Gálatas",
+      "Efesios",
+      "Filipenses",
+      "Romanos"
+    ],
+    "correcta": 0,
+    "ref": "Gálatas 5:22-23"
+  },
+  {
+    "id": 192,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿En qué carta Pablo describe la «armadura de Dios»: el escudo de la fe, el yelmo de la salvación, etc.?",
+    "opciones": [
+      "Efesios",
+      "Filipenses",
+      "Colosenses",
+      "1 Tesalonicenses"
+    ],
+    "correcta": 0,
+    "ref": "Efesios 6:13-17"
+  },
+  {
+    "id": 193,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿En qué carta, escrita desde la cárcel, Pablo dice «regocijaos en el Señor siempre»?",
+    "opciones": [
+      "Filipenses",
+      "Colosenses",
+      "Efesios",
+      "Filemón"
+    ],
+    "correcta": 0,
+    "ref": "Filipenses 4:4"
+  },
+  {
+    "id": 194,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué carta Pablo enseña que en Cristo «todas las cosas fueron creadas» y él es «la cabeza del cuerpo que es la iglesia»?",
+    "opciones": [
+      "Colosenses",
+      "Efesios",
+      "Filipenses",
+      "Hebreos"
+    ],
+    "correcta": 0,
+    "ref": "Colosenses 1:16-18"
+  },
+  {
+    "id": 195,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué carta Pablo enseña sobre la segunda venida de Cristo y anima a vivir en vigilancia, «como hijos de luz»?",
+    "opciones": [
+      "1 Tesalonicenses",
+      "2 Tesalonicenses",
+      "1 Timoteo",
+      "Tito"
+    ],
+    "correcta": 0,
+    "ref": "1 Tesalonicenses 5:4-5"
+  },
+  {
+    "id": 196,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué carta Pablo corrige la idea errónea de que el día del Señor ya había llegado?",
+    "opciones": [
+      "2 Tesalonicenses",
+      "1 Tesalonicenses",
+      "2 Timoteo",
+      "Tito"
+    ],
+    "correcta": 0,
+    "ref": "2 Tesalonicenses 2:1-2"
+  },
+  {
+    "id": 197,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿A qué joven discípulo, pastor en Éfeso, escribió Pablo dos cartas pastorales?",
+    "opciones": [
+      "Timoteo",
+      "Tito",
+      "Silas",
+      "Epafras"
+    ],
+    "correcta": 0,
+    "ref": "1 Timoteo 1:2"
+  },
+  {
+    "id": 198,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué carta Pablo escribe «Pelea la buena batalla de la fe» cerca del final de su vida?",
+    "opciones": [
+      "2 Timoteo",
+      "1 Timoteo",
+      "Tito",
+      "Filemón"
+    ],
+    "correcta": 0,
+    "ref": "2 Timoteo 4:7"
+  },
+  {
+    "id": 199,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿A qué colaborador, encargado de organizar la iglesia en Creta, escribió Pablo una carta pastoral?",
+    "opciones": [
+      "Tito",
+      "Timoteo",
+      "Filemón",
+      "Onésimo"
+    ],
+    "correcta": 0,
+    "ref": "Tito 1:5"
+  },
+  {
+    "id": 200,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué breve carta Pablo intercede por un esclavo fugitivo llamado Onésimo?",
+    "opciones": [
+      "Filemón",
+      "Tito",
+      "2 Timoteo",
+      "Colosenses"
+    ],
+    "correcta": 0,
+    "ref": "Filemón 1:10"
+  },
+  {
+    "id": 201,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué carta compara a Jesús con un sumo sacerdote superior al orden de Melquisedec?",
+    "opciones": [
+      "Hebreos",
+      "Romanos",
+      "1 Pedro",
+      "Santiago"
+    ],
+    "correcta": 0,
+    "ref": "Hebreos 7:17"
+  },
+  {
+    "id": 202,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué carta enseña que «la fe sin obras es muerta»?",
+    "opciones": [
+      "Santiago",
+      "Romanos",
+      "Gálatas",
+      "1 Juan"
+    ],
+    "correcta": 0,
+    "ref": "Santiago 2:17"
+  },
+  {
+    "id": 203,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué apóstol escribió dos cartas animando a los creyentes a mantenerse firmes en medio del sufrimiento?",
+    "opciones": [
+      "Pedro",
+      "Pablo",
+      "Juan",
+      "Santiago"
+    ],
+    "correcta": 0,
+    "ref": "1 Pedro 1:1"
+  },
+  {
+    "id": 204,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿En qué carta Pedro advierte contra falsos maestros y habla del día del Señor como un ladrón?",
+    "opciones": [
+      "2 Pedro",
+      "1 Pedro",
+      "1 Juan",
+      "Judas"
+    ],
+    "correcta": 0,
+    "ref": "2 Pedro 3:10"
+  },
+  {
+    "id": 205,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿Qué carta del apóstol Juan repite que «Dios es amor»?",
+    "opciones": [
+      "1 Juan",
+      "2 Juan",
+      "3 Juan",
+      "Apocalipsis"
+    ],
+    "correcta": 0,
+    "ref": "1 Juan 4:8"
+  },
+  {
+    "id": 206,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué breve carta de Juan advierte sobre no recibir en casa a falsos maestros?",
+    "opciones": [
+      "2 Juan",
+      "1 Juan",
+      "3 Juan",
+      "Judas"
+    ],
+    "correcta": 0,
+    "ref": "2 Juan 1:10"
+  },
+  {
+    "id": 207,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué breve carta de Juan elogia la hospitalidad de un creyente llamado Gayo?",
+    "opciones": [
+      "3 Juan",
+      "2 Juan",
+      "1 Juan",
+      "Filemón"
+    ],
+    "correcta": 0,
+    "ref": "3 Juan 1:1-5"
+  },
+  {
+    "id": 208,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué breve carta advierte contra falsos maestros comparándolos con «nubes sin agua»?",
+    "opciones": [
+      "Judas",
+      "2 Pedro",
+      "2 Juan",
+      "Santiago"
+    ],
+    "correcta": 0,
+    "ref": "Judas 1:12"
+  },
+  {
+    "id": 209,
+    "categoria": "Nuevo Testamento",
+    "dificultad": "media",
+    "pregunta": "¿A cuántas iglesias se dirigen los primeros capítulos del libro de Apocalipsis?",
+    "opciones": [
+      "Siete",
+      "Doce",
+      "Tres",
+      "Cinco"
+    ],
+    "correcta": 0,
+    "ref": "Apocalipsis 1:4"
+  },
+  {
+    "id": 210,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Qué profeta fue llevado cautivo a Babilonia de joven y allí interpretó sueños del rey?",
+    "opciones": [
+      "Daniel",
+      "Ezequiel",
+      "Jeremías",
+      "Isaías"
+    ],
+    "correcta": 0,
+    "ref": "Daniel 1:6"
+  },
+  {
+    "id": 211,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llamaba el rey persa que permitió a los judíos regresar y reconstruir el templo?",
+    "opciones": [
+      "Ciro",
+      "Darío",
+      "Asuero",
+      "Artajerjes"
+    ],
+    "correcta": 0,
+    "ref": "Ezra 1:1-2"
+  },
+  {
+    "id": 212,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Qué rey persa, esposo de Ester, gobernaba cuando ella se convirtió en reina?",
+    "opciones": [
+      "Asuero",
+      "Ciro",
+      "Darío",
+      "Nabucodonosor"
+    ],
+    "correcta": 0,
+    "ref": "Ester 2:17"
+  },
+  {
+    "id": 213,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Cómo se llamaba el primo de Ester que la crio y la animó a interceder por su pueblo?",
+    "opciones": [
+      "Mardoqueo",
+      "Amán",
+      "Hegai",
+      "Harbona"
+    ],
+    "correcta": 0,
+    "ref": "Ester 2:7"
+  },
+  {
+    "id": 214,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué funcionario persa tramó destruir a los judíos y terminó colgado en la horca que preparó para Mardoqueo?",
+    "opciones": [
+      "Amán",
+      "Hegai",
+      "Harbona",
+      "Memucán"
+    ],
+    "correcta": 0,
+    "ref": "Ester 7:9-10"
+  },
+  {
+    "id": 215,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Quién fue la cuñada de Rut que, a diferencia de ella, decidió quedarse en Moab?",
+    "opciones": [
+      "Orfa",
+      "Noemí",
+      "Mical",
+      "Abigail"
+    ],
+    "correcta": 0,
+    "ref": "Rut 1:14"
+  },
+  {
+    "id": 216,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Cómo se llamaba la suegra de Rut, a quien ella acompañó de vuelta a Belén?",
+    "opciones": [
+      "Noemí",
+      "Orfa",
+      "Mical",
+      "Dina"
+    ],
+    "correcta": 0,
+    "ref": "Rut 1:19-22"
+  },
+  {
+    "id": 217,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Quién fue el pariente de Noemí que se casó con Rut y se convirtió en bisabuelo de David?",
+    "opciones": [
+      "Booz",
+      "Elimelec",
+      "Quelión",
+      "Obed"
+    ],
+    "correcta": 0,
+    "ref": "Rut 4:13"
+  },
+  {
+    "id": 218,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Cómo se llamaba la primera esposa de David que fue hija del rey Saúl?",
+    "opciones": [
+      "Mical",
+      "Abigail",
+      "Betsabé",
+      "Ahinoam"
+    ],
+    "correcta": 0,
+    "ref": "1 Samuel 18:27"
+  },
+  {
+    "id": 219,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué mujer sabia evitó que su esposo necio enfrentara la ira de David, y luego se casó con David tras la muerte de aquel?",
+    "opciones": [
+      "Abigail",
+      "Mical",
+      "Betsabé",
+      "Ahinoam"
+    ],
+    "correcta": 0,
+    "ref": "1 Samuel 25:3; 25:42"
+  },
+  {
+    "id": 220,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Quién fue el hijo de David y Betsabé que llegó a ser el rey más sabio de Israel?",
+    "opciones": [
+      "Salomón",
+      "Absalón",
+      "Amnón",
+      "Adonías"
+    ],
+    "correcta": 0,
+    "ref": "1 Reyes 1:30"
+  },
+  {
+    "id": 221,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué profetisa anciana reconoció al niño Jesús en el templo cuando Simeón lo bendecía?",
+    "opciones": [
+      "Ana",
+      "Elisabet",
+      "Noemí",
+      "Hulda"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 2:36-38"
+  },
+  {
+    "id": 222,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Cómo se llamaba el anciano que, guiado por el Espíritu, tomó al niño Jesús en sus brazos en el templo?",
+    "opciones": [
+      "Simeón",
+      "Zacarías",
+      "Nicodemo",
+      "José de Arimatea"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 2:25-28"
+  },
+  {
+    "id": 223,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Qué fariseo visitó a Jesús de noche para preguntarle cómo nacer de nuevo?",
+    "opciones": [
+      "Nicodemo",
+      "Simón",
+      "Gamaliel",
+      "José de Arimatea"
+    ],
+    "correcta": 0,
+    "ref": "Juan 3:1-4"
+  },
+  {
+    "id": 224,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Quién ofreció su propio sepulcro nuevo para enterrar el cuerpo de Jesús?",
+    "opciones": [
+      "José de Arimatea",
+      "Nicodemo",
+      "Simón de Cirene",
+      "Lázaro"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 27:57-60"
+  },
+  {
+    "id": 225,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Quién cargó la cruz de Jesús parte del camino al Gólgota?",
+    "opciones": [
+      "Simón de Cirene",
+      "José de Arimatea",
+      "Barrabás",
+      "Nicodemo"
+    ],
+    "correcta": 0,
+    "ref": "Marcos 15:21"
+  },
+  {
+    "id": 226,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué maestro de la ley, fariseo respetado, defendió a los apóstoles ante el concilio?",
+    "opciones": [
+      "Gamaliel",
+      "Nicodemo",
+      "Anás",
+      "Caifás"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 5:34-39"
+  },
+  {
+    "id": 227,
+    "categoria": "Personajes",
+    "dificultad": "media",
+    "pregunta": "¿Quién acompañó a Pablo en varios de sus viajes misioneros y era conocido como «hijo de consolación»?",
+    "opciones": [
+      "Bernabé",
+      "Silas",
+      "Timoteo",
+      "Lucas"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 4:36"
+  },
+  {
+    "id": 228,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué pareja de esposos, hacedores de tiendas, ayudó a instruir a Apolos y colaboró con Pablo?",
+    "opciones": [
+      "Aquila y Priscila",
+      "Ananías y Safira",
+      "Felipe y Cleofas",
+      "Lidia y Crispo"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 18:2-3; 18:26"
+  },
+  {
+    "id": 229,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué matrimonio mintió al Espíritu Santo sobre el dinero de una venta y cayó muerto?",
+    "opciones": [
+      "Ananías y Safira",
+      "Aquila y Priscila",
+      "Zacarías y Elisabet",
+      "Félix y Drusila"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 5:1-10"
+  },
+  {
+    "id": 230,
+    "categoria": "Personajes",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué comerciante de púrpura, primera convertida europea de Pablo, vivía en Filipos?",
+    "opciones": [
+      "Lidia",
+      "Priscila",
+      "Febe",
+      "Junia"
+    ],
+    "correcta": 0,
+    "ref": "Hechos 16:14"
+  },
+  {
+    "id": 231,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Qué enseñó Jesús que debemos hacer con nuestra luz, en el Sermón del Monte?",
+    "opciones": [
+      "No esconderla, sino dejarla alumbrar",
+      "Guardarla para nosotros",
+      "Compartirla solo con la familia",
+      "Apagarla de noche"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 5:15-16"
+  },
+  {
+    "id": 232,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Qué parábola compara el Reino de los cielos con un tesoro que un hombre encuentra y vende todo para comprarlo?",
+    "opciones": [
+      "El tesoro escondido",
+      "La perla de gran precio",
+      "La red",
+      "El grano de mostaza"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 13:44"
+  },
+  {
+    "id": 233,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Qué parábola compara el Reino de los cielos con un mercader que vende todo por una joya de gran valor?",
+    "opciones": [
+      "La perla de gran precio",
+      "El tesoro escondido",
+      "La red",
+      "La levadura"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 13:45-46"
+  },
+  {
+    "id": 234,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué parábola compara el Reino de los cielos con una red que recoge peces buenos y malos?",
+    "opciones": [
+      "La red",
+      "La levadura",
+      "El grano de mostaza",
+      "Los talentos"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 13:47-48"
+  },
+  {
+    "id": 235,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Qué enseñó Jesús sobre juzgar a los demás, comparándolo con una viga y una paja en el ojo?",
+    "opciones": [
+      "No juzgar sin quitar primero la viga de nuestro propio ojo",
+      "Juzgar siempre con misericordia",
+      "No juzgar nunca a nadie",
+      "Juzgar solo a los líderes"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 7:3-5"
+  },
+  {
+    "id": 236,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "¿Con qué comparó Jesús a quien oye su palabra y la pone en práctica, frente a quien no?",
+    "opciones": [
+      "Un hombre que edifica su casa sobre la roca",
+      "Un sembrador que esparce semilla",
+      "Un pastor que cuida ovejas",
+      "Un rey que hace un banquete"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 7:24-27"
+  },
+  {
+    "id": 237,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Qué pidió Jesús a un joven rico que hiciera, además de guardar los mandamientos, para seguirlo plenamente?",
+    "opciones": [
+      "Vender sus bienes y darlos a los pobres",
+      "Ayunar cuarenta días",
+      "Ir al templo cada día",
+      "Dejar a su familia"
+    ],
+    "correcta": 0,
+    "ref": "Mateo 19:21"
+  },
+  {
+    "id": 238,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "En la parábola del gran banquete, ¿qué hizo el señor cuando los primeros invitados rechazaron la invitación?",
+    "opciones": [
+      "Mandó invitar a otros, incluyendo a los pobres y necesitados",
+      "Canceló el banquete",
+      "Esperó un año más",
+      "Invitó solo a su familia"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 14:16-23"
+  },
+  {
+    "id": 239,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "media",
+    "pregunta": "¿Qué enseñó Jesús sobre la oración persistente en la parábola del juez injusto y la viuda?",
+    "opciones": [
+      "Que debemos orar siempre sin desanimar",
+      "Que es mejor orar solo una vez",
+      "Que Dios tarda en responder siempre",
+      "Que no hay que insistir en la oración"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 18:1-5"
+  },
+  {
+    "id": 240,
+    "categoria": "Parábolas y Enseñanzas",
+    "dificultad": "dificil",
+    "pregunta": "¿Qué enseñó Jesús en la oración del fariseo y el publicano sobre quién sale justificado?",
+    "opciones": [
+      "El que se humilla, como el publicano",
+      "El que ayuna más veces",
+      "El que da más diezmos",
+      "El que ora más tiempo"
+    ],
+    "correcta": 0,
+    "ref": "Lucas 18:14"
+  },
+  {
+    "id": 241,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos libros poéticos y sapienciales hay en el Antiguo Testamento (Job, Salmos, Proverbios, Eclesiastés, Cantares)?",
+    "opciones": [
+      "Cinco",
+      "Tres",
+      "Siete",
+      "Diez"
+    ],
+    "correcta": 0,
+    "ref": null
+  },
+  {
+    "id": 242,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos profetas menores hay en el Antiguo Testamento?",
+    "opciones": [
+      "Doce",
+      "Diez",
+      "Siete",
+      "Quince"
+    ],
+    "correcta": 0,
+    "ref": null
+  },
+  {
+    "id": 243,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántos años aproximadamente pasó el pueblo de Israel en cautiverio en Babilonia?",
+    "opciones": [
+      "Setenta años",
+      "Cuarenta años",
+      "Cien años",
+      "Veinte años"
+    ],
+    "correcta": 0,
+    "ref": "Jeremías 29:10"
+  },
+  {
+    "id": 244,
+    "categoria": "Números y Datos",
+    "dificultad": "dificil",
+    "pregunta": "¿Cuántas cartas generales (no de Pablo) se incluyen tradicionalmente en el Nuevo Testamento (Hebreos, Santiago, 1-2 Pedro, 1-3 Juan, Judas)?",
+    "opciones": [
+      "Ocho",
+      "Cinco",
+      "Diez",
+      "Seis"
+    ],
+    "correcta": 0,
+    "ref": null
+  },
+  {
+    "id": 245,
+    "categoria": "Números y Datos",
+    "dificultad": "media",
+    "pregunta": "¿Cuántos hijos tuvo Jacob en total, incluyendo a su única hija Dina?",
+    "opciones": [
+      "Trece",
+      "Doce",
+      "Diez",
+      "Catorce"
+    ],
+    "correcta": 0,
+    "ref": "Génesis 30; 35:22"
+  }
 ]

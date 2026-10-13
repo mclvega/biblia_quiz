@@ -2,7 +2,7 @@ import { app, type Pantalla } from '../app';
 import { audio } from '../audio';
 import { opcionesBarajadas } from '../content/quiz';
 import { rngFrom } from '../core/rng';
-import { calcularPuntos, tiempoPregunta, type Partida } from '../core/partida';
+import { calcularPuntos, esIlimitada, preguntaActual, tiempoPregunta, type Partida } from '../core/partida';
 import { boton, h } from './dom';
 
 export function pantallaJuego(params: Record<string, unknown>): Pantalla {
@@ -16,24 +16,32 @@ export function pantallaJuego(params: Record<string, unknown>): Pantalla {
 
   const renderPregunta = () => {
     limpiar();
-    const pregunta = partida.preguntas[partida.indice];
+    const pregunta = preguntaActual(partida);
     const mostradas = opcionesBarajadas(pregunta, rngFrom(`opciones:${pregunta.id}:${partida.indice}`));
     const tiempoTotal = tiempoPregunta(partida);
     let restante = tiempoTotal;
     let respondida = false;
+    const ilimitada = esIlimitada(partida);
 
-    const barraProgreso = h('div', { class: 'barra-progreso' }, h('span', { text: `Pregunta ${partida.indice + 1} de ${partida.preguntas.length}` }));
+    const textoProgreso = ilimitada ? `Pregunta ${partida.indice + 1} (sin límite)` : `Pregunta ${partida.indice + 1} de ${partida.preguntas.length}`;
+    const barraProgreso = h('div', { class: 'barra-progreso' }, h('span', { text: textoProgreso }));
     const puntajeTexto = h('div', { class: 'puntaje', text: `Puntos: ${partida.puntaje}` });
     const barraTiempo = h('div', { class: 'barra-tiempo' }, h('div', { class: 'barra-tiempo-interior' }));
     const relleno = barraTiempo.querySelector('div')!;
     const lista = h('div', { class: 'opciones-pregunta', role: 'group', 'aria-label': 'Opciones de respuesta' });
     const zonaResultado = h('div', { class: 'pila', 'aria-live': 'polite' });
+    const botonTerminar = ilimitada
+      ? boton('Terminar partida', () => {
+          limpiar();
+          app.ir('resultados', { partida });
+        }, { variante: 'suave' })
+      : null;
 
     const avanzar = () => {
       limpiar();
       partida.indice++;
-      if (partida.indice >= partida.preguntas.length) app.ir('resultados', { partida });
-      else el.replaceChildren(construirContenido());
+      if (!ilimitada && partida.indice >= partida.preguntas.length) app.ir('resultados', { partida });
+      else renderPregunta();
     };
 
     const responder = (opcionIndex: number, correcta: boolean) => {
@@ -78,6 +86,7 @@ export function pantallaJuego(params: Record<string, unknown>): Pantalla {
         h('p', { class: 'pregunta-texto', text: pregunta.pregunta }),
         lista,
         zonaResultado,
+        botonTerminar,
       );
 
     el.replaceChildren(construirContenido());

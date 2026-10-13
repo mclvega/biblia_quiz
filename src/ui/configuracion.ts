@@ -1,16 +1,19 @@
 import { app, type Pantalla } from '../app';
 import { audio } from '../audio';
 import { DIFICULTADES, nombreDificultad, type Dificultad } from '../core/difficulty';
-import { crearPartida } from '../core/partida';
+import { crearPartida, type Cantidad } from '../core/partida';
 import { CATEGORIAS, type Categoria } from '../content/quiz';
+import type { Configuracion } from '../storage';
 import { boton, h } from './dom';
 
-const CANTIDADES = [10, 15, 20] as const;
+const CANTIDADES: Cantidad[] = [10, 15, 20, 'ilimitada'];
+const TEMAS: Configuracion['tema'][] = ['claro', 'oscuro', 'auto'];
+const NOMBRE_TEMA: Record<Configuracion['tema'], string> = { claro: 'Claro', oscuro: 'Oscuro', auto: 'Auto' };
 
 export function pantallaConfiguracion(): Pantalla {
   let categoria: Categoria = 'Todas';
   let dificultad: Dificultad = 'facil';
-  let cantidad: (typeof CANTIDADES)[number] = 10;
+  let cantidad: Cantidad = 10;
 
   const grupoOpciones = <T>(etiqueta: string, valores: readonly T[], actual: T, texto: (v: T) => string, onElegir: (v: T) => void) => {
     const fila = h('div', { class: 'fila-botones', role: 'group', 'aria-label': etiqueta });
@@ -28,7 +31,16 @@ export function pantallaConfiguracion(): Pantalla {
 
   const filaCategoria = grupoOpciones('Categoría', ['Todas', ...CATEGORIAS] as Categoria[], categoria, (v) => v, (v) => (categoria = v));
   const filaDificultad = grupoOpciones('Dificultad', DIFICULTADES, dificultad, nombreDificultad, (v) => (dificultad = v));
-  const filaCantidad = grupoOpciones('Cantidad de preguntas', CANTIDADES, cantidad, (v) => String(v), (v) => (cantidad = v));
+  const filaCantidad = grupoOpciones('Cantidad de preguntas', CANTIDADES, cantidad, (v) => (v === 'ilimitada' ? 'Sin límite' : String(v)), (v) => (cantidad = v));
+
+  const botonTema = boton(`Tema: ${NOMBRE_TEMA[app.g.config.tema]}`, () => {
+    const i = TEMAS.indexOf(app.g.config.tema);
+    app.g.config.tema = TEMAS[(i + 1) % TEMAS.length];
+    app.guardar();
+    app.aplicarConfig();
+    botonTema.querySelector('.btn-texto')!.textContent = `Tema: ${NOMBRE_TEMA[app.g.config.tema]}`;
+    audio.efecto('boton');
+  }, { variante: 'suave', icono: '🌓' });
 
   const jugar = () => {
     audio.efecto('boton');
@@ -55,7 +67,10 @@ export function pantallaConfiguracion(): Pantalla {
       h('div', { class: 'campo' }, h('span', { class: 'etiqueta', text: 'Cantidad de preguntas' }), filaCantidad),
       alerta,
       h('button', { type: 'button', class: 'btn btn-primario btn-grande', onclick: jugar }, h('span', { class: 'btn-texto', text: 'Jugar' })),
-      boton('Ver tabla de puntuaciones', () => app.ir('puntuaciones'), { variante: 'suave' }),
+      h('div', { class: 'fila-botones' },
+        boton('Ver tabla de puntuaciones', () => app.ir('puntuaciones'), { variante: 'suave' }),
+        botonTema,
+      ),
     ),
   );
   return { el };
