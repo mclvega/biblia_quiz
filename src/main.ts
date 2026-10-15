@@ -31,3 +31,8 @@ window.addEventListener('pointerdown', iniciarAudio);
 window.addEventListener('keydown', iniciarAudio);
 
 window.matchMedia?.('(prefers-color-scheme: dark)').addEventListener?.('change', () => app.aplicarConfig());
+
+// Service worker: guarda el juego en caché para jugar sin conexión (también instalado como app).
+if (import.meta.env.PROD && 'serviceWorker' in navigator) {
+  addEventListener('load', () => navigator.serviceWorker.register('/sw.js').catch(() => undefined));
+}
