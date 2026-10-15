@@ -10,7 +10,7 @@ export interface Puntuacion {
 
 export interface Configuracion {
   sonido: boolean;
-  tema: 'claro' | 'oscuro' | 'negro' | 'auto';
+  tema: 'claro' | 'oscuro' | 'auto';
 }
 
 export interface Guardado {
@@ -53,7 +53,7 @@ function normalizarConfig(entrada: unknown): Configuracion {
   const d = configPorDefecto();
   if (!esObjeto(entrada)) return d;
   const sonido = typeof entrada.sonido === 'boolean' ? entrada.sonido : d.sonido;
-  const tema = entrada.tema === 'claro' || entrada.tema === 'oscuro' || entrada.tema === 'negro' || entrada.tema === 'auto' ? entrada.tema : d.tema;
+  const tema = entrada.tema === 'claro' || entrada.tema === 'oscuro' || entrada.tema === 'auto' ? entrada.tema : d.tema;
   return { sonido, tema };
 }
 

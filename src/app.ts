@@ -51,7 +51,7 @@ class Aplicacion {
   aplicarConfig(): void {
     const tema = this.g.config.tema;
     if (tema === 'auto') delete document.documentElement.dataset.theme;
-    else document.documentElement.dataset.theme = tema === 'oscuro' ? 'dark' : tema === 'negro' ? 'black' : 'light';
+    else document.documentElement.dataset.theme = tema === 'oscuro' ? 'dark' : 'light';
     audio.setActivo(this.g.config.sonido);
   }
 }
