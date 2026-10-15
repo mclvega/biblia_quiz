@@ -7,8 +7,8 @@ import type { Configuracion } from '../storage';
 import { boton, h } from './dom';
 
 const CANTIDADES: Cantidad[] = [10, 15, 20, 'ilimitada'];
-const TEMAS: Configuracion['tema'][] = ['claro', 'oscuro', 'auto'];
-const NOMBRE_TEMA: Record<Configuracion['tema'], string> = { claro: 'Claro', oscuro: 'Oscuro', auto: 'Auto' };
+const TEMAS: Configuracion['tema'][] = ['claro', 'oscuro', 'negro', 'auto'];
+const NOMBRE_TEMA: Record<Configuracion['tema'], string> = { claro: 'Claro', oscuro: 'Oscuro', negro: 'Negro', auto: 'Auto' };
 
 export function pantallaConfiguracion(): Pantalla {
   let categoria: Categoria = 'Todas';

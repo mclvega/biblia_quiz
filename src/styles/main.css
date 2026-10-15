@@ -36,6 +36,16 @@
   --border: #4a3a28;
 }
 
+:root[data-theme='black'] {
+  --bg: #000000;
+  --surface: #0d0d0d;
+  --surface-2: #1a1a1a;
+  --text: #f3e9d8;
+  --text-2: #b8a88c;
+  --border: #2e2e2e;
+  --shadow: 0 6px 16px rgba(0, 0, 0, 0.6);
+}
+
 * { box-sizing: border-box; }
 
 html, body { margin: 0; padding: 0; }

@@ -32,9 +32,15 @@ export function preguntasFiltradas(categoria: Categoria, dificultad: Dificultad)
 
 /** Elige `cantidad` preguntas al azar (determinista por semilla), sin repetir. */
 export function elegirPreguntas(categoria: Categoria, dificultad: Dificultad, cantidad: number, semilla: string): Pregunta[] {
-  const disponibles = preguntasFiltradas(categoria, dificultad);
-  const barajadas = shuffle(rngFrom(semilla), disponibles);
-  return barajadas.slice(0, Math.min(cantidad, barajadas.length));
+  const rng = rngFrom(semilla);
+  const elegidas = shuffle(rng, preguntasFiltradas(categoria, dificultad));
+  // Si faltan, completa primero con la misma categoría (otra dificultad) y luego con cualquier pregunta.
+  for (const extra of [preguntasFiltradas(categoria, 'mixta'), PREGUNTAS]) {
+    if (elegidas.length >= cantidad) break;
+    const ids = new Set(elegidas.map((p) => p.id));
+    elegidas.push(...shuffle(rng, extra.filter((p) => !ids.has(p.id))));
+  }
+  return elegidas.slice(0, cantidad);
 }
 
 export interface OpcionMostrada {

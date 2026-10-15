@@ -1,7 +1,7 @@
 import { MODOS, type Dificultad } from './difficulty';
 import { shuffle, rngFrom } from './rng';
 import type { Categoria, Pregunta } from '../content/quiz';
-import { elegirPreguntas, preguntasFiltradas } from '../content/quiz';
+import { PREGUNTAS, elegirPreguntas, preguntasFiltradas } from '../content/quiz';
 
 export type Cantidad = 10 | 15 | 20 | 'ilimitada';
 
@@ -24,9 +24,14 @@ export function crearPartida(params: ParametrosPartida): Partida {
   const semilla = `partida:${Date.now()}:${Math.random()}`;
   const preguntas =
     params.cantidad === 'ilimitada'
-      ? shuffle(rngFrom(semilla), preguntasFiltradas(params.categoria, params.dificultad))
+      ? shuffle(rngFrom(semilla), sinVacio(preguntasFiltradas(params.categoria, params.dificultad), preguntasFiltradas(params.categoria, 'mixta'), PREGUNTAS))
       : elegirPreguntas(params.categoria, params.dificultad, params.cantidad, semilla);
   return { ...params, preguntas, semilla, indice: 0, puntaje: 0, aciertos: 0 };
+}
+
+/** Primera lista no vacía: evita quedarse sin preguntas en combinaciones raras. */
+function sinVacio(...listas: Pregunta[][]): Pregunta[] {
+  return listas.find((l) => l.length > 0) ?? [];
 }
 
 export function esIlimitada(partida: Partida): boolean {
