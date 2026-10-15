@@ -2,6 +2,7 @@ import './styles/main.css';
 
 import { app } from './app';
 import { audio } from './audio';
+import { iniciarPantallaCompleta } from './fullscreen';
 import { pantallaBienvenida } from './ui/bienvenida';
 import { pantallaConfiguracion } from './ui/configuracion';
 import { pantallaJuego } from './ui/juego';
@@ -14,6 +15,7 @@ app.registrar('juego', pantallaJuego);
 app.registrar('resultados', pantallaResultados);
 app.registrar('puntuaciones', pantallaPuntuaciones);
 
+iniciarPantallaCompleta(() => app.g.config.pantallaCompleta);
 app.montar(document.getElementById('app')!);
 app.aplicarConfig();
 app.ir(app.g.nombre ? 'configuracion' : 'bienvenida');

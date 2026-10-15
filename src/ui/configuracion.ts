@@ -3,6 +3,7 @@ import { audio } from '../audio';
 import { DIFICULTADES, nombreDificultad, type Dificultad } from '../core/difficulty';
 import { crearPartida, type Cantidad } from '../core/partida';
 import { CATEGORIAS, type Categoria } from '../content/quiz';
+import { entrarPantallaCompleta, salirPantallaCompleta } from '../fullscreen';
 import type { Configuracion } from '../storage';
 import { boton, h } from './dom';
 
@@ -42,6 +43,15 @@ export function pantallaConfiguracion(): Pantalla {
     audio.efecto('boton');
   }, { variante: 'suave', icono: '🌓' });
 
+  const textoPantalla = () => `Pantalla completa: ${app.g.config.pantallaCompleta ? 'Sí' : 'No'}`;
+  const botonPantalla = boton(textoPantalla(), () => {
+    app.g.config.pantallaCompleta = !app.g.config.pantallaCompleta;
+    app.guardar();
+    (app.g.config.pantallaCompleta ? entrarPantallaCompleta : salirPantallaCompleta)();
+    botonPantalla.querySelector('.btn-texto')!.textContent = textoPantalla();
+    audio.efecto('boton');
+  }, { variante: 'suave', icono: '⛶' });
+
   const jugar = () => {
     audio.efecto('boton');
     const partida = crearPartida({ categoria, dificultad, cantidad });
@@ -70,6 +80,7 @@ export function pantallaConfiguracion(): Pantalla {
       h('div', { class: 'fila-botones' },
         boton('Ver tabla de puntuaciones', () => app.ir('puntuaciones'), { variante: 'suave' }),
         botonTema,
+        botonPantalla,
       ),
     ),
   );

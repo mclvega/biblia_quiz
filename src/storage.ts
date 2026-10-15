@@ -11,6 +11,7 @@ export interface Puntuacion {
 export interface Configuracion {
   sonido: boolean;
   tema: 'claro' | 'oscuro' | 'auto';
+  pantallaCompleta: boolean;
 }
 
 export interface Guardado {
@@ -24,7 +25,7 @@ export const CLAVE_GUARDADO = 'biblia-quiz:v1';
 const MAX_PUNTUACIONES = 20;
 
 export function configPorDefecto(): Configuracion {
-  return { sonido: true, tema: 'auto' };
+  return { sonido: true, tema: 'auto', pantallaCompleta: true };
 }
 
 export function guardadoNuevo(): Guardado {
@@ -54,7 +55,8 @@ function normalizarConfig(entrada: unknown): Configuracion {
   if (!esObjeto(entrada)) return d;
   const sonido = typeof entrada.sonido === 'boolean' ? entrada.sonido : d.sonido;
   const tema = entrada.tema === 'claro' || entrada.tema === 'oscuro' || entrada.tema === 'auto' ? entrada.tema : d.tema;
-  return { sonido, tema };
+  const pantallaCompleta = typeof entrada.pantallaCompleta === 'boolean' ? entrada.pantallaCompleta : d.pantallaCompleta;
+  return { sonido, tema, pantallaCompleta };
 }
 
 /** Valida datos guardados: cualquier campo dañado vuelve a su valor por defecto. */
